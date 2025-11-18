@@ -247,7 +247,9 @@ Telegram：https://t.me/zetachain_asia
 | [wukong988](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/wukong988.md) | | | | | | | | | | | | | | |
 | [siemens84cn](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/siemens84cn.md) | | | | | | | | | | | | | | |
 | [hanschurer](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/hanschurer.md) | | | | | | | | | | | | | | |
+| [BrKDDD](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/BrKDDD.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

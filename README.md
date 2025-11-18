@@ -229,7 +229,9 @@ Telegram：https://t.me/zetachain_asia
 | [Darkells](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Darkells.md) | | | | | | | | | | | | | | |
 | [wyeeeh](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/wyeeeh.md) | | | | | | | | | | | | | | |
 | [jeffierw](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/jeffierw.md) | | | | | | | | | | | | | | |
+| [B1u-e](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/B1u-e.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

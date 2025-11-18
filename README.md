@@ -259,7 +259,9 @@ Telegram：https://t.me/zetachain_asia
 | [CirCleZhouZhou](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/CirCleZhouZhou.md) | | | | | | | | | | | | | | |
 | [Aster-amellus](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Aster-amellus.md) | | | | | | | | | | | | | | |
 | [LambertAlpha](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/LambertAlpha.md) | | | | | | | | | | | | | | |
+| [ja564](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/ja564.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

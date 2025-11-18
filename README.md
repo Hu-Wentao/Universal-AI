@@ -250,7 +250,9 @@ Telegram：https://t.me/zetachain_asia
 | [BrKDDD](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/BrKDDD.md) | | | | | | | | | | | | | | |
 | [binova3](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/binova3.md) | | | | | | | | | | | | | | |
 | [Raphael-LEI](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Raphael-LEI.md) | | | | | | | | | | | | | | |
+| [gitgdut](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/gitgdut.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

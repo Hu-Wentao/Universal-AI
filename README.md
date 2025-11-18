@@ -269,7 +269,9 @@ Telegram：https://t.me/zetachain_asia
 | [kuove](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/kuove.md) | | | | | | | | | | | | | | |
 | [baicaiyihao](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/baicaiyihao.md) | | | | | | | | | | | | | | |
 | [catcatcash](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/catcatcash.md) | | | | | | | | | | | | | | |
+| [veithly](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/veithly.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

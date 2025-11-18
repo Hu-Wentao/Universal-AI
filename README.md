@@ -272,7 +272,9 @@ Telegram：https://t.me/zetachain_asia
 | [veithly](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/veithly.md) | | | | | | | | | | | | | | |
 | [coolzeta](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/coolzeta.md) | | | | | | | | | | | | | | |
 | [bassfuture](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/bassfuture.md) | | | | | | | | | | | | | | |
+| [debugzhao](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/debugzhao.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

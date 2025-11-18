@@ -284,7 +284,9 @@ Telegram：https://t.me/zetachain_asia
 | [EastWind0](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/EastWind0.md) | | | | | | | | | | | | | | |
 | [skcvan](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/skcvan.md) | | | | | | | | | | | | | | |
 | [zylg-create](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/zylg-create.md) | | | | | | | | | | | | | | |
+| [dingshuji](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/dingshuji.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

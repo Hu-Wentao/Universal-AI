@@ -275,7 +275,9 @@ Telegram：https://t.me/zetachain_asia
 | [debugzhao](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/debugzhao.md) | | | | | | | | | | | | | | |
 | [Readering1](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Readering1.md) | | | | | | | | | | | | | | |
 | [anqi42196-crypto](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/anqi42196-crypto.md) | | | | | | | | | | | | | | |
+| [muxin-web3](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/muxin-web3.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

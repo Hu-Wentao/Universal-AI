@@ -221,7 +221,9 @@ Telegram：https://t.me/zetachain_asia
 | Name | 11.24 | 11.25 | 11.26 | 11.27 | 11.28 | 11.29 | 11.30 | 12.01 | 12.02 | 12.03 | 12.04 | 12.05 | 12.06 | 12.07 |
 | ------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | [machiwachi](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/machiwachi.md) | | | | | | | | | | | | | | |
+| [brucexu-eth](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/brucexu-eth.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

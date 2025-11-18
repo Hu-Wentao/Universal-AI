@@ -236,7 +236,9 @@ Telegram：https://t.me/zetachain_asia
 | [Coooder-Crypto](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Coooder-Crypto.md) | | | | | | | | | | | | | | |
 | [younggogogo](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/younggogogo.md) | | | | | | | | | | | | | | |
 | [TPB003](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/TPB003.md) | | | | | | | | | | | | | | |
+| [pillowtalk-Qy](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/pillowtalk-Qy.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

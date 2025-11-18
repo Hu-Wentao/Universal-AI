@@ -242,7 +242,9 @@ Telegram：https://t.me/zetachain_asia
 | [Appler-R](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Appler-R.md) | | | | | | | | | | | | | | |
 | [15998431520](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/15998431520.md) | | | | | | | | | | | | | | |
 | [Max-wht](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Max-wht.md) | | | | | | | | | | | | | | |
+| [lilexi-bot](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/lilexi-bot.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

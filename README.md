@@ -289,7 +289,9 @@ Telegram：https://t.me/zetachain_asia
 | [JunZ-Leo](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/JunZ-Leo.md) | | | | | | | | | | | | | | |
 | [fca2025774696-art](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/fca2025774696-art.md) | | | | | | | | | | | | | | |
 | [Frederick2313072](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Frederick2313072.md) | | | | | | | | | | | | | | |
+| [JintolChan](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/JintolChan.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

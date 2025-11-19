@@ -316,7 +316,9 @@ Telegram：https://t.me/zetachain_asia
 | [StarryNights9527](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/StarryNights9527.md) | | | | | | | | | | | | | | |
 | [gegej1](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/gegej1.md) | | | | | | | | | | | | | | |
 | [fDu-Xia](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/fDu-Xia.md) | | | | | | | | | | | | | | |
+| [Airjiannan05](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Airjiannan05.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

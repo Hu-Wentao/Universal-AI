@@ -317,7 +317,9 @@ Telegram：https://t.me/zetachain_asia
 | [gegej1](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/gegej1.md) | | | | | | | | | | | | | | |
 | [fDu-Xia](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/fDu-Xia.md) | | | | | | | | | | | | | | |
 | [Airjiannan05](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Airjiannan05.md) | | | | | | | | | | | | | | |
+| [Kongweiyi928](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Kongweiyi928.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

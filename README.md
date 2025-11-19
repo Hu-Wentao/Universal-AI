@@ -294,7 +294,9 @@ Telegram：https://t.me/zetachain_asia
 | [MoMNiToT](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/MoMNiToT.md) | | | | | | | | | | | | | | |
 | [Quiz-web177](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Quiz-web177.md) | | | | | | | | | | | | | | |
 | [Jizhixing-Kieran](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Jizhixing-Kieran.md) | | | | | | | | | | | | | | |
+| [leopc999](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/leopc999.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

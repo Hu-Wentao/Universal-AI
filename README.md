@@ -300,7 +300,9 @@ Telegram：https://t.me/zetachain_asia
 | [amandakelake](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/amandakelake.md) | | | | | | | | | | | | | | |
 | [siphonelee](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/siphonelee.md) | | | | | | | | | | | | | | |
 | [zg870](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/zg870.md) | | | | | | | | | | | | | | |
+| [Sifotd](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Sifotd.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

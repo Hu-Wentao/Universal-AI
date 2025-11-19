@@ -305,7 +305,9 @@ Telegram：https://t.me/zetachain_asia
 | [tian-Sun](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/tian-Sun.md) | | | | | | | | | | | | | | |
 | [spryo9](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/spryo9.md) | | | | | | | | | | | | | | |
 | [git149](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/git149.md) | | | | | | | | | | | | | | |
+| [cwj526](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/cwj526.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

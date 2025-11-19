@@ -335,7 +335,9 @@ Telegram：https://t.me/zetachain_asia
 | [willietheking](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/willietheking.md) | | | | | | | | | | | | | | |
 | [lpppy](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/lpppy.md) | | | | | | | | | | | | | | |
 | [tan9799](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/tan9799.md) | | | | | | | | | | | | | | |
+| [Muramasa-Lynn](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Muramasa-Lynn.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

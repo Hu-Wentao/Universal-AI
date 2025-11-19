@@ -333,7 +333,9 @@ Telegram：https://t.me/zetachain_asia
 | [fkkloorgennting-prog](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/fkkloorgennting-prog.md) | | | | | | | | | | | | | | |
 | [Kgzsgod](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Kgzsgod.md) | | | | | | | | | | | | | | |
 | [willietheking](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/willietheking.md) | | | | | | | | | | | | | | |
+| [lpppy](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/lpppy.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

@@ -371,7 +371,9 @@ Telegram：https://t.me/zetachain_asia
 | [dersteppenwolfruowen-316](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/dersteppenwolfruowen-316.md) | | | | | | | | | | | | | | |
 | [ARZER-TW](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/ARZER-TW.md) | | | | | | | | | | | | | | |
 | [Toby1009](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Toby1009.md) | | | | | | | | | | | | | | |
+| [Modestide](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Modestide.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

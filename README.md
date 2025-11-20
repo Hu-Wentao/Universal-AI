@@ -350,7 +350,9 @@ Telegram：https://t.me/zetachain_asia
 | [Jack-OuCJ](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Jack-OuCJ.md) | | | | | | | | | | | | | | |
 | [NoTks0808](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/NoTks0808.md) | | | | | | | | | | | | | | |
 | [XiaoHai67890](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/XiaoHai67890.md) | | | | | | | | | | | | | | |
+| [jorgenlou](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/jorgenlou.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

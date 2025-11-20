@@ -362,7 +362,9 @@ Telegram：https://t.me/zetachain_asia
 | [jackysense](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/jackysense.md) | | | | | | | | | | | | | | |
 | [xihale](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/xihale.md) | | | | | | | | | | | | | | |
 | [Mikey202580](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Mikey202580.md) | | | | | | | | | | | | | | |
+| [sheep3gold](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/sheep3gold.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

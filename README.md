@@ -360,7 +360,9 @@ Telegram：https://t.me/zetachain_asia
 | [linqiwei666](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/linqiwei666.md) | | | | | | | | | | | | | | |
 | [changfeng-01](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/changfeng-01.md) | | | | | | | | | | | | | | |
 | [jackysense](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/jackysense.md) | | | | | | | | | | | | | | |
+| [xihale](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/xihale.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

@@ -379,7 +379,9 @@ Telegram：https://t.me/zetachain_asia
 | [c4yCC](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/c4yCC.md) | | | | | | | | | | | | | | |
 | [coolifewindy](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/coolifewindy.md) | | | | | | | | | | | | | | |
 | [aced-lab](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/aced-lab.md) | | | | | | | | | | | | | | |
+| [3550625279-ux](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/3550625279-ux.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

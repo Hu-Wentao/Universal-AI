@@ -373,7 +373,9 @@ Telegram：https://t.me/zetachain_asia
 | [Toby1009](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Toby1009.md) | | | | | | | | | | | | | | |
 | [Modestide](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Modestide.md) | | | | | | | | | | | | | | |
 | [kikyou1009](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/kikyou1009.md) | | | | | | | | | | | | | | |
+| [ads12306](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/ads12306.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

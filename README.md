@@ -402,7 +402,9 @@ Telegram：https://t.me/zetachain_asia
 | [BrucerTao](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/BrucerTao.md) | | | | | | | | | | | | | | |
 | [zjx91](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/zjx91.md) | | | | | | | | | | | | | | |
 | [SharKPep](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/SharKPep.md) | | | | | | | | | | | | | | |
+| [piscispsa](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/piscispsa.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

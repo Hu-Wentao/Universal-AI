@@ -391,7 +391,9 @@ Telegram：https://t.me/zetachain_asia
 | [SkySommer](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/SkySommer.md) | | | | | | | | | | | | | | |
 | [xk666-lab](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/xk666-lab.md) | | | | | | | | | | | | | | |
 | [JACKhuamei](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/JACKhuamei.md) | | | | | | | | | | | | | | |
+| [Augety1017](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Augety1017.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

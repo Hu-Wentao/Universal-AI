@@ -394,7 +394,9 @@ Telegram：https://t.me/zetachain_asia
 | [Augety1017](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Augety1017.md) | | | | | | | | | | | | | | |
 | [zhishi66621](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/zhishi66621.md) | | | | | | | | | | | | | | |
 | [Xboxpig](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Xboxpig.md) | | | | | | | | | | | | | | |
+| [TAnNbR](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/TAnNbR.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

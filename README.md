@@ -400,7 +400,9 @@ Telegram：https://t.me/zetachain_asia
 | [madison42](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/madison42.md) | | | | | | | | | | | | | | |
 | [Y4NG666](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Y4NG666.md) | | | | | | | | | | | | | | |
 | [BrucerTao](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/BrucerTao.md) | | | | | | | | | | | | | | |
+| [zjx91](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/zjx91.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

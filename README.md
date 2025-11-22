@@ -404,7 +404,9 @@ Telegram：https://t.me/zetachain_asia
 | [SharKPep](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/SharKPep.md) | | | | | | | | | | | | | | |
 | [piscispsa](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/piscispsa.md) | | | | | | | | | | | | | | |
 | [jiangjiax](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/jiangjiax.md) | | | | | | | | | | | | | | |
+| [Micteach](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Micteach.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

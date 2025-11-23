@@ -430,7 +430,9 @@ Telegram：https://t.me/zetachain_asia
 | [Nikoheihei](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Nikoheihei.md) |   | | | | | | | | | | | | | |
 | [KevinYZH](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/KevinYZH.md) |   | | | | | | | | | | | | | |
 | [hxzxa](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/hxzxa.md) |   | | | | | | | | | | | | | |
+| [jake2020520](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/jake2020520.md) |   | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

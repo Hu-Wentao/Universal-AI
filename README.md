@@ -419,7 +419,9 @@ Telegram：https://t.me/zetachain_asia
 | [g15230103179-bot](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/g15230103179-bot.md) |   | | | | | | | | | | | | | |
 | [jmwasky-creative](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/jmwasky-creative.md) |   | | | | | | | | | | | | | |
 | [621-hykd](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/621-hykd.md) |   | | | | | | | | | | | | | |
+| [Kunsoul](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Kunsoul.md) |   | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

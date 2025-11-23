@@ -412,7 +412,9 @@ Telegram：https://t.me/zetachain_asia
 | [Lumi-Zheng](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Lumi-Zheng.md) | | | | | | | | | | | | | | |
 | [asdspal](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/asdspal.md) | | | | | | | | | | | | | | |
 | [Ramlisese](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Ramlisese.md) | | | | | | | | | | | | | | |
+| [QIN7QIN7](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/QIN7QIN7.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

@@ -409,7 +409,9 @@ Telegram：https://t.me/zetachain_asia
 | [MartinYeung5](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/MartinYeung5.md) | | | | | | | | | | | | | | |
 | [uneer143](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/uneer143.md) | | | | | | | | | | | | | | |
 | [xzzlks](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/xzzlks.md) | | | | | | | | | | | | | | |
+| [Lumi-Zheng](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Lumi-Zheng.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

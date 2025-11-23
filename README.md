@@ -221,7 +221,7 @@ Telegram：https://t.me/zetachain_asia
 | Name | 11.24 | 11.25 | 11.26 | 11.27 | 11.28 | 11.29 | 11.30 | 12.01 | 12.02 | 12.03 | 12.04 | 12.05 | 12.06 | 12.07 |
 | ------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | [machiwachi](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/machiwachi.md) |   | | | | | | | | | | | | | |
-| [brucexu-eth](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/brucexu-eth.md) |   | | | | | | | | | | | | | |
+| [brucexu-eth](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/brucexu-eth.md) | ✅ | | | | | | | | | | | | | |
 | [SuBCweb3](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/SuBCweb3.md) |   | | | | | | | | | | | | | |
 | [Igor777-Li](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Igor777-Li.md) |   | | | | | | | | | | | | | |
 | [ququzone](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/ququzone.md) |   | | | | | | | | | | | | | |
@@ -425,6 +425,7 @@ Telegram：https://t.me/zetachain_asia
 | [chenyllove001](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/chenyllove001.md) |   | | | | | | | | | | | | | |
 | [taiaiJiaZhi](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/taiaiJiaZhi.md) |   | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

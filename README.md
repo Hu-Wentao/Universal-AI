@@ -413,7 +413,9 @@ Telegram：https://t.me/zetachain_asia
 | [asdspal](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/asdspal.md) | | | | | | | | | | | | | | |
 | [Ramlisese](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Ramlisese.md) | | | | | | | | | | | | | | |
 | [QIN7QIN7](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/QIN7QIN7.md) | | | | | | | | | | | | | | |
+| [den1305](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/den1305.md) | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

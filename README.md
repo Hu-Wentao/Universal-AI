@@ -247,7 +247,7 @@ Telegram：https://t.me/zetachain_asia
 | [wukong988](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/wukong988.md) |   | | | | | | | | | | | | | |
 | [siemens84cn](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/siemens84cn.md) |   | | | | | | | | | | | | | |
 | [hanschurer](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/hanschurer.md) |   | | | | | | | | | | | | | |
-| [BrKDDD](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/BrKDDD.md) |   | | | | | | | | | | | | | |
+| [BrKDDD](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/BrKDDD.md) | ✅ | | | | | | | | | | | | | |
 | [binova3](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/binova3.md) |   | | | | | | | | | | | | | |
 | [Raphael-LEI](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Raphael-LEI.md) |   | | | | | | | | | | | | | |
 | [gitgdut](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/gitgdut.md) |   | | | | | | | | | | | | | |
@@ -443,6 +443,7 @@ Telegram：https://t.me/zetachain_asia
 | [StariverKang](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/StariverKang.md) |   | | | | | | | | | | | | | |
 | [shihshaoni](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/shihshaoni.md) |   | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

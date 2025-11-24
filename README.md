@@ -294,7 +294,7 @@ Telegram：https://t.me/zetachain_asia
 | [MoMNiToT](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/MoMNiToT.md) |   | | | | | | | | | | | | | |
 | [Quiz-web177](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Quiz-web177.md) |   | | | | | | | | | | | | | |
 | [Jizhixing-Kieran](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Jizhixing-Kieran.md) |   | | | | | | | | | | | | | |
-| [leopc999](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/leopc999.md) |   | | | | | | | | | | | | | |
+| [leopc999](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/leopc999.md) | ✅ | | | | | | | | | | | | | |
 | [slucifersz](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/slucifersz.md) |   | | | | | | | | | | | | | |
 | [zane3412](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/zane3412.md) |   | | | | | | | | | | | | | |
 | [amandakelake](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/amandakelake.md) |   | | | | | | | | | | | | | |
@@ -443,6 +443,7 @@ Telegram：https://t.me/zetachain_asia
 | [StariverKang](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/StariverKang.md) |   | | | | | | | | | | | | | |
 | [shihshaoni](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/shihshaoni.md) |   | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

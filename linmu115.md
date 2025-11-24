@@ -15,6 +15,8 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
-
-
+# 2025-11-24
+<!-- DAILY_CHECKIN_2025-11-24_START -->
+已完成zetachain钱包配置和测试币获取
+<!-- DAILY_CHECKIN_2025-11-24_END -->
 <!-- Content_END -->

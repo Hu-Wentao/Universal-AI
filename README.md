@@ -348,7 +348,7 @@ Telegram：https://t.me/zetachain_asia
 | [Xiongruijie](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Xiongruijie.md) | ✅ | | | | | | | | | | | | | |
 | [rayjun](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/rayjun.md) |   | | | | | | | | | | | | | |
 | [Jack-OuCJ](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Jack-OuCJ.md) |   | | | | | | | | | | | | | |
-| [NoTks0808](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/NoTks0808.md) |   | | | | | | | | | | | | | |
+| [NoTks0808](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/NoTks0808.md) | ✅ | | | | | | | | | | | | | |
 | [XiaoHai67890](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/XiaoHai67890.md) | ✅ | | | | | | | | | | | | | |
 | [jorgenlou](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/jorgenlou.md) |   | | | | | | | | | | | | | |
 | [qky190525](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/qky190525.md) | ✅ | | | | | | | | | | | | | |
@@ -443,6 +443,7 @@ Telegram：https://t.me/zetachain_asia
 | [StariverKang](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/StariverKang.md) |   | | | | | | | | | | | | | |
 | [shihshaoni](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/shihshaoni.md) |   | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

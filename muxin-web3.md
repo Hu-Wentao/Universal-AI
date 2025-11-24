@@ -27,5 +27,9 @@ timezone: UTC+12
 [aa](https://lxdao.io/)
 
 * * *
+
+\* Message: 是跨鏈交易中傳遞的訊息內容，剛剛發送的字串，經過 EVM ABI 編碼 (ABI Encoded) 後的樣子
+
+\* Sender: tttt
 <!-- DAILY_CHECKIN_2025-11-24_END -->
 <!-- Content_END -->

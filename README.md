@@ -356,7 +356,7 @@ Telegram：https://t.me/zetachain_asia
 | [kelvinqin7](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/kelvinqin7.md) |   | | | | | | | | | | | | | |
 | [guow7394](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/guow7394.md) |   | | | | | | | | | | | | | |
 | [june-in-exile](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/june-in-exile.md) |   | | | | | | | | | | | | | |
-| [mersault18](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/mersault18.md) |   | | | | | | | | | | | | | |
+| [mersault18](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/mersault18.md) | ✅ | | | | | | | | | | | | | |
 | [linqiwei666](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/linqiwei666.md) |   | | | | | | | | | | | | | |
 | [changfeng-01](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/changfeng-01.md) |   | | | | | | | | | | | | | |
 | [jackysense](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/jackysense.md) |   | | | | | | | | | | | | | |
@@ -443,6 +443,7 @@ Telegram：https://t.me/zetachain_asia
 | [StariverKang](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/StariverKang.md) |   | | | | | | | | | | | | | |
 | [shihshaoni](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/shihshaoni.md) |   | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

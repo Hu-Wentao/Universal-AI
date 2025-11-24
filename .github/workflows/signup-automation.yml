@@ -60,13 +60,23 @@ jobs:
                                  issue.body.match(/(?:时区|Timezone)[\s:：]+([^\n]+)/i);
             const contactMatch = issue.body.match(/\*\*(?:Telegram)[\s:：]*\*\*\s*([^\n]+)/i) ||
                                 issue.body.match(/(?:Telegram)[\s:：]+([^\n]+)/i);
-            const introMatch = issue.body.match(/\*\*(?:自我介绍|Self-introduction)[\s:：]*\*\*\s*([^\n]+)/i) ||
-                                issue.body.match(/(?:自我介绍|Self-introduction)[\s:：]+([^\n]+)/i);
+            // Capture multi-line self-introduction until next section (**, ##) or end
+            // Capture multi-line self-introduction until next section, disclaimer, or end
+            // Stop before lines like "本 Issue 由系统自动创建" or "This issue was automatically created"
+            const stopPattern = /\n\s*(?:```\s*\n\s*)?(?:本\s*Issue|该\s*Issue|This\s+Issue|This\s+issue|由系统自动创建|系统自动创建)/i;
+            const introMatch = issue.body.match(new RegExp(String.raw`\*\*(?:自我介绍|Self-introduction)[\\s:：]*\*\*[\t ]*([\s\S]*?)(?=\n\s*##|${stopPattern.source}|$)`, 'i')) ||
+                                issue.body.match(new RegExp(String.raw`(?:自我介绍|Self-introduction)[\\s:：]+([\s\S]*?)(?=\n\s*##|${stopPattern.source}|$)`, 'i'));
 
             const userName = nameMatch ? nameMatch[1].trim() : githubId;
             const userTimezone = timezoneMatch ? timezoneMatch[1].trim() : 'UTC+8';
             const userContact = contactMatch ? contactMatch[1].trim() : '';
-            const userIntro = introMatch ? introMatch[1].trim() : '';
+            let userIntro = introMatch ? introMatch[1].trim() : '';
+            // If intro ends with an unmatched code-fence line (``` or more), drop that trailing fence
+            const fenceLineRe = /(\n\s*`{3,}[^\n]*\s*)$/;
+            const fenceCount = (userIntro.match(/(^|\n)\s*`{3,}[^\n]*\s*(?=\n|$)/g) || []).length;
+            if (fenceLineRe.test(userIntro) && fenceCount % 2 === 1) {
+              userIntro = userIntro.replace(fenceLineRe, '').replace(/\n+$/,'').trim();
+            }
 
             // Set output for next step
             core.setOutput('github_id', githubId);

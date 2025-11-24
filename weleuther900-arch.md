@@ -15,6 +15,8 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
-
-
+# 2025-11-24
+<!-- DAILY_CHECKIN_2025-11-24_START -->
+day1 任务完成，打卡
+<!-- DAILY_CHECKIN_2025-11-24_END -->
 <!-- Content_END -->

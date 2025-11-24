@@ -17,8 +17,28 @@ WEB3 ROOKIE
 <!-- Content_START -->
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
-## Github ID : RSXLX
+# **REECE**
 
-## Tg ID : reeow3579
+**GitHub ID:** RSXLX
+
+**Telegram:** @reeow3579
+
+## **Self-introduction**
+
+Web3开发者 Trader
+
+## **Notes**
+
+# **2025-11-24**
+
+<!-- DAILY\_CHECKIN\_2025-11-24\_START --> 1 ZetaChain 的核心是 **跨链智能合约（Omnichain Smart Contract）**
+
+2 看了浏览器  
+
+![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/RSXLX/images/2025-11-24-1763986817074-image.png)
+
+3 注册QWEN API  
+
+![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/RSXLX/images/2025-11-24-1763986833813-image.png)
 <!-- DAILY_CHECKIN_2025-11-24_END -->
 <!-- Content_END -->

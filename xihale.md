@@ -15,6 +15,12 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-24
+<!-- DAILY_CHECKIN_2025-11-24_START -->
+```sh
+bun add -g zetachain@latest @zetachain/toolkit
+```
 
-
+used `zetachain accounts new` created a local account.
+<!-- DAILY_CHECKIN_2025-11-24_END -->
 <!-- Content_END -->

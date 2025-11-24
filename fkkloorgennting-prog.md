@@ -15,6 +15,37 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-24
+<!-- DAILY_CHECKIN_2025-11-24_START -->
+**Day 1：启动 & 环境准备（整体概览）**
 
+-   ZetaChain 总文档 (已閱)
+    
+-   ZetaChain Developers（入口总览）(已閱)
+    
+-   Qwen 总文档（Quickstart / Key Concepts）(已閱)
+    
 
+**扩展资料（可选）**
+
+-   Qwen API 平台 (已下載使用)
+    
+
+**实践 / 作业**
+
+-   注册 / 配置好 ZetaChain 开发所需环境（浏览 Docs，确认能访问 Developers 页面）。
+    
+
+(已註冊)
+
+-   注册 Qwen 账号并确认可以进入控制台。
+    
+
+(已加入)
+
+-   加入 ZetaChain 中国开发者社区，微信：arainqinqin（备注：通用 AI）。
+    
+
+(已加入)
+<!-- DAILY_CHECKIN_2025-11-24_END -->
 <!-- Content_END -->

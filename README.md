@@ -228,7 +228,7 @@ Telegram：https://t.me/zetachain_asia
 | [Plato333](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Plato333.md) | ✅ | | | | | | | | | | | | | |
 | [Darkells](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Darkells.md) | ✅ | | | | | | | | | | | | | |
 | [wyeeeh](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/wyeeeh.md) |   | | | | | | | | | | | | | |
-| [jeffierw](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/jeffierw.md) |   | | | | | | | | | | | | | |
+| [jeffierw](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/jeffierw.md) | ✅ | | | | | | | | | | | | | |
 | [B1u-e](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/B1u-e.md) |   | | | | | | | | | | | | | |
 | [xiaodian6777](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/xiaodian6777.md) |   | | | | | | | | | | | | | |
 | [tumiao233](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/tumiao233.md) |   | | | | | | | | | | | | | |
@@ -443,6 +443,7 @@ Telegram：https://t.me/zetachain_asia
 | [StariverKang](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/StariverKang.md) | ✅ | | | | | | | | | | | | | |
 | [shihshaoni](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/shihshaoni.md) |   | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

@@ -430,7 +430,7 @@ Telegram：https://t.me/zetachain_asia
 | [Nikoheihei](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Nikoheihei.md) |   | | | | | | | | | | | | | |
 | [KevinYZH](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/KevinYZH.md) |   | | | | | | | | | | | | | |
 | [hxzxa](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/hxzxa.md) |   | | | | | | | | | | | | | |
-| [jake2020520](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/jake2020520.md) |   | | | | | | | | | | | | | |
+| [jake2020520](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/jake2020520.md) | ✅ | | | | | | | | | | | | | |
 | [Whiteoleand](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Whiteoleand.md) |   | | | | | | | | | | | | | |
 | [70549019i-code](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/70549019i-code.md) |   | | | | | | | | | | | | | |
 | [dreamR-cmd](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/dreamR-cmd.md) |   | | | | | | | | | | | | | |
@@ -443,6 +443,7 @@ Telegram：https://t.me/zetachain_asia
 | [StariverKang](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/StariverKang.md) |   | | | | | | | | | | | | | |
 | [shihshaoni](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/shihshaoni.md) |   | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

@@ -15,6 +15,8 @@ Web3 product manager and engineer, LXDAO designer, AI enthusiast.
 ## Notes
 
 <!-- Content_START -->
-
-
+# 2025-11-24
+<!-- DAILY_CHECKIN_2025-11-24_START -->
+今天主要学习了环境配置方面的内容。
+<!-- DAILY_CHECKIN_2025-11-24_END -->
 <!-- Content_END -->

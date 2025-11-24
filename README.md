@@ -253,7 +253,7 @@ Telegram：https://t.me/zetachain_asia
 | [gitgdut](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/gitgdut.md) | ✅ | | | | | | | | | | | | | |
 | [Ylim314](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Ylim314.md) | ✅ | | | | | | | | | | | | | |
 | [1664730539](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/1664730539.md) | ✅ | | | | | | | | | | | | | |
-| [lisaite](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/lisaite.md) |   | | | | | | | | | | | | | |
+| [lisaite](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/lisaite.md) | ✅ | | | | | | | | | | | | | |
 | [beyondz0110](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/beyondz0110.md) |   | | | | | | | | | | | | | |
 | [ChaoyuWang04](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/ChaoyuWang04.md) | ✅ | | | | | | | | | | | | | |
 | [CirCleZhouZhou](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/CirCleZhouZhou.md) | ✅ | | | | | | | | | | | | | |
@@ -301,7 +301,7 @@ Telegram：https://t.me/zetachain_asia
 | [siphonelee](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/siphonelee.md) |   | | | | | | | | | | | | | |
 | [zg870](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/zg870.md) | ✅ | | | | | | | | | | | | | |
 | [Sifotd](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Sifotd.md) |   | | | | | | | | | | | | | |
-| [HUA-cyber](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/HUA-cyber.md) |   | | | | | | | | | | | | | |
+| [HUA-cyber](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/HUA-cyber.md) | ✅ | | | | | | | | | | | | | |
 | [tian-Sun](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/tian-Sun.md) |   | | | | | | | | | | | | | |
 | [spryo9](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/spryo9.md) | ✅ | | | | | | | | | | | | | |
 | [git149](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/git149.md) | ✅ | | | | | | | | | | | | | |
@@ -443,6 +443,7 @@ Telegram：https://t.me/zetachain_asia
 | [StariverKang](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/StariverKang.md) |   | | | | | | | | | | | | | |
 | [shihshaoni](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/shihshaoni.md) |   | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

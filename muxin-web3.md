@@ -17,14 +17,10 @@ timezone: UTC+12
 <!-- Content_START -->
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
-# 测试
-
--   test
-    
 -   test
     
 
-[aa](https://lxdao.io/)
+# aaaa
 
 * * *
 <!-- DAILY_CHECKIN_2025-11-24_END -->

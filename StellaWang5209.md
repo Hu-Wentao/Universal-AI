@@ -15,8 +15,22 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-25
+<!-- DAILY_CHECKIN_2025-11-25_START -->
+ZetaChain 通过 Cosmos SDK + Comet BFT，实现了较高 TPS 和非常快的最终确定性。
+
+既有负责出块共识 (core validators)，也有专门用于跨链观察与签名 (observer-signer) 的验证者。
+
+跨链签名机制去中心化（super-majority 签名 +分布式密钥 + staking 激励），减少风险。
+
+任何人如果质押足够 ZETA，都可以成为验证者。
+
+未来如果引入 BLS 阈值签名，可以显著提升网络规模 (节点数) 和效率。
+<!-- DAILY_CHECKIN_2025-11-25_END -->
+
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 ZetaChain 是一个 跨链 L1，目标是让所有区块链互通。
 
 在它上面部署一个合约，就能让 多个链的资产与逻辑一起工作。

@@ -15,8 +15,41 @@ web3 developer
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-25
+<!-- DAILY_CHECKIN_2025-11-25_START -->
+## **完成**
+
+-   本地部署Swap合约, 使用zetachain实现swap跨链交换代币
+    
+    ```
+    zetachain evm deposit-and-call \
+      --rpc http://localhost:8545 \
+      --chain-id 11155111 \
+      --gateway $GATEWAY_ETHEREUM \
+      --amount 0.001 \
+      --types address bytes bool \
+      --receiver $SWAP \     
+      --private-key $PRIVATE_KEY \
+      --values $ZRC20_BNB $RECIPIENT true
+    ​
+    From:   0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+    To:     0x5bf5b11053e734690269C6B9D438F8C9d48F528A on ZetaChain
+    Amount: 0.001 native tokens
+    Refund: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+    Call on revert: false
+    ​
+    Contract call details:
+    Function parameters: 0x0000000000000000000000000000000000000000, 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266, true
+    Parameter types: ["address","bytes","bool"]
+    ​
+    ? Proceed with the transaction? yes
+    Transaction hash: 0x0b14edbce4863bcf8d6504a2982764e6a60a49b0e4993bec3033be6e6c7c2af7
+    ```
+<!-- DAILY_CHECKIN_2025-11-25_END -->
+
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 # Day 01
 
 ## **实现：**

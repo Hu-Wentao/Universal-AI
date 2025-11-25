@@ -18,10 +18,171 @@ code everything
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
 # 1，今日打卡，加油
+
+# 2，#️⃣ Day 2 学习目标（总结）
+
+-   **完成 ZetaChain 本地/云端开发环境**
+    
+    -   安装 ZetaChain CLI
+        
+    -   掌握测试网 RPC / Faucet / Explorer 的入口
+        
+-   **完成第一次 Qwen API 调用**
+    
+    -   使用 Postman / curl / Python / Node 调一次 Qwen
+        
+    -   能看到模型返回（成功 or 报错均算完成）
+        
+-   **明确自己 的学习目标**
+    
+
+# Part 1｜ZetaChain CLI 安装与环境准备
+
+## 1\. 为什么需要 CLI？
+
+ZetaChain CLI 用途：
+
+-   创建项目模板（Universal EVM）
+    
+-   部署合约
+    
+-   与 ZetaChain 网络交互（testnet）
+    
+-   调用 messaging/swap demo
+    
+
+是 ZetaChain 开发最核心的工具链之一。
+
+# 2\. 安装 ZetaChain CLI（Windows → WSL2 推荐）
+
+因为我的系统是Windows，所以使用 WSL2 + Ubuntu。
+
+## ✔️ **步骤 1：启用 WSL2**
+
+PowerShell 管理员模式执行：
+
+```
+wsl --install
+```
+
+重启后自动安装 Ubuntu。
+
+## **步骤 2：安装依赖**
+
+进入 Ubuntu 终端：
+
+```
+sudo apt update
+sudo apt install -y unzip curl git
+```
+
+* * *
+
+## ✔️ **步骤 3：安装 ZetaChain CLI**
+
+安装 ZetaChain CLI：
+
+```
+npm install -g zetachain
+```
+
+尝试运行：
+
+* * *
+
+## ✔️ **步骤 4：初始化 ZetaChain 项目**
+
+```
+zetachain query chains list
+```
+
+```
+该命令会打印当前连接到 ZetaChain 的所有链
+```
+
+# 🟧 Part 2｜ZetaChain 测试网入口记录
+
+* * *
+
+## ✔️ **① RPC 入口（ZetaChain EVM Testnet）**
+
+```
+https://www.zetachain.com/docs/reference/network/api
+```
+
+* * *
+
+## ✔️ **② Faucet（领测试币）**
+
+```
+https://www.zetachain.com/docs/reference/faucet
+```
+
+* * *
+
+## ✔️ **③ Explorer**
+
+```
+https://www.zetachain.com/docs/reference/explorers
+```
+
+* * *
+
+## ✔️ **④ ChainID / Network 信息**
+
+| 项目 | 值 |
+| --- | --- |
+| 网络名 | ZetaChain Athens Testnet |
+| Chain ID | 7001 |
+| 货币符号 | ZETA |
+
+* * *
+
+## ✔️ **⑤ 将 RPC 加入 Metamask**
+
+```
+网络名称：ZetaChain Athens
+RPC：http(s)：https://zetachain-athens-evm.blockpi.network/v1/rpc/public
+chainId：7001
+symbol：ZETA
+```
+
+# 🟦 Part 3｜Qwen API 调通（核心任务）
+
+* * *
+
+* * *
+
+# ✔️ Python 示例（最简单）
+
+```
+from openai import OpenAI
+
+client = OpenAI(
+    api_key="YOUR_QWEN_API_KEY",
+    base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
+)
+
+resp = client.chat.completions.create(
+    model="qwen-max",
+    messages=[{"role": "user", "content": "用一句话介绍 ZetaChain 是什么？"}]
+)
+
+print(resp.choices[0].message)
+```
+
+* * *
+
+# 🟩 运行后应看到类似输出：
+
+```
+ZetaChain 是一个支持原生跨链消息与资产转移的通用区块链。
+```
 <!-- DAILY_CHECKIN_2025-11-25_END -->
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 # 1，签到打卡
 

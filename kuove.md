@@ -15,8 +15,22 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-25
+<!-- DAILY_CHECKIN_2025-11-25_START -->
+1.  注册qwen，获取api，能在本地通过node调用
+    
+2.  阅读[**Getting Started**](https://www.zetachain.com/docs/developers/tutorials/intro)
+    
+3.  [Faucet](https://www.zetachain.com/docs/reference/faucet)： [这个用过](https://zetachain.faucetme.pro/)
+    
+4.  [RPC](https://www.zetachain.com/docs/reference/network/api)
+    
+5.  [Explorer](https://www.zetachain.com/docs/reference/explorers)
+<!-- DAILY_CHECKIN_2025-11-25_END -->
+
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 -   Universal apps:
     
     -   can receive contract calls and tokens from users and contracts on connected chains

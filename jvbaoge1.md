@@ -15,8 +15,170 @@ just share ，dyor ，hope to earn  空投不撸枉少年  新协议我先上车
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-25
+<!-- DAILY_CHECKIN_2025-11-25_START -->
+📝 Day 2：环境与工具实战（ZetaChain + Qwen）
+
+提交人：jvbaoge1
+
+日期：2025 年 11 月 25 日
+
+环境：Windows + WSL（Ubuntu），Node.js v24.11.1
+
+✅ 一、ZetaChain CLI 安装与验证
+
+1\. 环境准备
+
+Node.js ≥ 18：✅ 已安装（v24.11.1）
+
+npm：✅ v11.6.2
+
+2\. 安装 CLI
+
+npm install -g zetachain@latest
+
+3\. 验证安装
+
+zetachain --help
+
+输出包含以下核心命令：
+
+new：创建 Universal App 项目模板
+
+accounts：管理钱包账户
+
+query：查询余额、跨链费用、合约等
+
+localnet：启动本地多链开发环境（EVM、Solana 等）
+
+✅ 结论：CLI 安装成功，具备开发基础能力。
+
+📚 二、ZetaChain 测试网关键信息整理
+
+根据官方文档 ZetaChain Reference ，整理 Athens Testnet 关键入口如下：
+
+网络名称
+
+Athens Testnet
+
+Chain ID
+
+7001
+
+RPC Endpoint
+
+[https://zetachain-athens-evm.blockpi.network/v1/rpc/public](https://zetachain-athens-evm.blockpi.network/v1/rpc/public)
+
+Faucet（领测试 ZETA）
+
+[https://labs.zetachain.com/faucet](https://labs.zetachain.com/faucet)
+
+区块浏览器（ZetaScan）
+
+[https://athens3.explorer.zetachain.com/](https://athens3.explorer.zetachain.com/)
+
+ZETA 代币
+
+Native token，ZRC-20 形式可在
+
+Contract Addresses
+
+查询
+
+✅ 已记录至本地笔记，供后续开发调用。
+
+🌐 三、Qwen API 连通性测试
+
+1\. 平台选择
+
+使用 阿里云百炼平台（DashScope 升级版）
+
+模型：qwen-turbo（低延迟、免费额度充足）
+
+curl -X POST [https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation](https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation) \\
+
+\-H "Authorization: Bearer sk-xxxxx" \\
+
+\-H "Content-Type: application/json" \\
+
+\-d '{
+
+"model": "qwen-turbo",
+
+"input": {
+
+"messages": \[{"role": "user", "content": "你好，通义千问！"}\]
+
+}
+
+}'
+
+![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/jvbaoge1/images/2025-11-25-1764075133884-image.png)
+
+🔒 说明：真实 API Key 仅用于本地测试，未写入任何代码或文档。
+
+3\. 实际测试结果（本地成功）
+
+{
+
+"output": {
+
+"text": "你好！不过我更喜欢你叫我通义千问。很高兴见到你！……"
+
+}
+
+}
+
+四、未来两周学习目标（2025.11.25 – 2025.12.09）
+
+根据 ZetaChain Developers 教程路线，制定计划如下：
+
+完成核心教程：
+
+✅ Getting Started（已了解）
+
+🔄 First Universal Contract（下一步）
+
+🔄 Messaging
+
+🔄 Build a Web App
+
+技术实践：
+
+使用 zetachain new 创建第一个 Universal Contract
+
+通过 zetachain localnet 启动本地多链环境
+
+实现 EVM → ZetaChain 的跨链消息传递
+
+在 ZetaScan 上追踪交易状态
+
+AI + 区块链融合探索：
+
+用 Qwen API 解释 cross-chain call failed 错误
+
+自动生成 Universal Contract 的 NatSpec 注释
+
+🛡️ 五、安全与提交说明
+
+所有代码/笔记存放于本地 ~/zetachain 仓库
+
+使用 .gitignore 排除敏感路径：
+
+gitignore
+
+.zetachain/ # CLI 私钥目录
+
+.env # 环境变量
+
+绝不提交：API Key、私钥、助记词、真实地址
+
+GitHub 仓库：[https://github.com/jvbaoge1/zetachain](https://github.com/jvbaoge1/zetachain)
+<!-- DAILY_CHECKIN_2025-11-25_END -->
+
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 成功的部署了环境，从以太坊链（Sepolia）发送到 ZetaChain Universal Contract 的跨链调用过程
 
 [https://github.com/jvbaoge1/zetachain](https://github.com/jvbaoge1/zetachain)

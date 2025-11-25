@@ -330,7 +330,7 @@ Telegram：https://t.me/zetachain_asia
 | [mango-ice-cat](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/mango-ice-cat.md) | ✅ |   | | | | | | | | | | | | |
 | [Free-riding](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Free-riding.md) | ✅ |   | | | | | | | | | | | | |
 | [StellaWang5209](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/StellaWang5209.md) | ✅ |   | | | | | | | | | | | | |
-| [fkkloorgennting-prog](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/fkkloorgennting-prog.md) | ✅ |   | | | | | | | | | | | | |
+| [fkkloorgennting-prog](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/fkkloorgennting-prog.md) | ✅ | ✅ | | | | | | | | | | | | |
 | [Kgzsgod](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Kgzsgod.md) | ✅ |   | | | | | | | | | | | | |
 | [willietheking](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/willietheking.md) | ⭕️ |   | | | | | | | | | | | | |
 | [lpppy](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/lpppy.md) | ⭕️ |   | | | | | | | | | | | | |
@@ -444,6 +444,7 @@ Telegram：https://t.me/zetachain_asia
 | [shihshaoni](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/shihshaoni.md) | ⭕️ |   | | | | | | | | | | | | |
 | [poerty0509](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/poerty0509.md) | ✅ |   | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

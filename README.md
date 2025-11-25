@@ -257,7 +257,7 @@ Telegram：https://t.me/zetachain_asia
 | [beyondz0110](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/beyondz0110.md) | ⭕️ |   | | | | | | | | | | | | |
 | [ChaoyuWang04](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/ChaoyuWang04.md) | ✅ |   | | | | | | | | | | | | |
 | [CirCleZhouZhou](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/CirCleZhouZhou.md) | ✅ |   | | | | | | | | | | | | |
-| [Aster-amellus](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Aster-amellus.md) | ⭕️ |   | | | | | | | | | | | | |
+| [Aster-amellus](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/Aster-amellus.md) | ⭕️ | ✅ | | | | | | | | | | | | |
 | [LambertAlpha](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/LambertAlpha.md) | ⭕️ |   | | | | | | | | | | | | |
 | [ja564](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/ja564.md) | ⭕️ |   | | | | | | | | | | | | |
 | [RSXLX](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/RSXLX.md) | ✅ |   | | | | | | | | | | | | |
@@ -444,6 +444,7 @@ Telegram：https://t.me/zetachain_asia
 | [shihshaoni](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/shihshaoni.md) | ⭕️ |   | | | | | | | | | | | | |
 | [poerty0509](https://github.com/IntensiveCoLearning/Universal-AI/blob/main/poerty0509.md) | ✅ |   | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 

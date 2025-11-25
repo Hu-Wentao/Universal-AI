@@ -15,6 +15,8 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
-
-
+# 2025-11-25
+<!-- DAILY_CHECKIN_2025-11-25_START -->
+昨天比较忙，今天把环境都配置好了，正式开始学区块链的内容
+<!-- DAILY_CHECKIN_2025-11-25_END -->
 <!-- Content_END -->

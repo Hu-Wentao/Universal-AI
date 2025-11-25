@@ -15,8 +15,16 @@ Web3 builder
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-25
+<!-- DAILY_CHECKIN_2025-11-25_START -->
+Qwen API 的简单请求：
+
+![3a8fbf91b0d9dfe9c2c27ef268b0ad46.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/jackysense/images/2025-11-25-1764077332232-3a8fbf91b0d9dfe9c2c27ef268b0ad46.png)
+<!-- DAILY_CHECKIN_2025-11-25_END -->
+
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 zeta 通用AI原理 :ZetaChain 有个Gateway 协议作为桥梁：从通用应用程序向连接链上的合约调用和提取代币。
 
 **应用实例解析**‌  

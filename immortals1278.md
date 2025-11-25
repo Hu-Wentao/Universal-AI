@@ -28,10 +28,19 @@ Explorer 用于查看链上信息：[https://zetachain-athens.blockpi.network/](
 部署在zetachain和与zetachain连接的链上的一系列智能合约，用于向zetachain中存款/收款。
 
 存款：原生代币发到安全托管合约，zetachain铸造ZRC-20（若从没铸造过要先部署一个新的ZRC-20合约）并发送给特定地址，取款同理。
+
+call：在源链上调用gateway的send函数->调用zetachain上通用合约的onCrossChainCall函数执行任意逻辑（如交换、质押、铸造NFT等）
+
+## gas费
+
+入站调用用原生代币支付，仅支付源链的原生 Gas 费
+
+出站调用需用zrc20支付取款费用，出站时ZetaChain 的验证者需要动用他们自己持有的目标链原生代币（如 ETH、BNB）来为你支付目标链上的 Gas 费。这笔费用就是为了补偿他们。
 <!-- DAILY_CHECKIN_2025-11-25_END -->
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 
 

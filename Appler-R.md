@@ -52,7 +52,7 @@ CLI（命令行界面）
 
 安装编译 ZetaChain 所需的 Go 语言和系统工具。 代码 (WSL 中执行)：
 
-关键突破： 学会了“远程节点 (RPC)”的概念。当本地节点跑不通时，通过连接全球公共节点来获取数据。
+**关键突破： 学会了“远程节点 (RPC)”的概念。当本地节点跑不通时，通过连接全球公共节点来获取数据。**
 
 RPC 节点 = 别人的全节点 + 你通过接口远程调用它
 
@@ -62,7 +62,7 @@ RPC 节点 = 别人的全节点 + 你通过接口远程调用它
 
 ![1ew.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/Appler-R/images/2025-11-25-1764054544623-1ew.png)
 
-**Qwen库的安装**
+### **Qwen库的安装**
 
 ![库.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/Appler-R/images/2025-11-25-1764055872186-_.png)
 
@@ -295,6 +295,7 @@ agent\_[price.py](http://price.py)：实时的加密货币行情助手。
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 ## 了解了一些基础知识
 

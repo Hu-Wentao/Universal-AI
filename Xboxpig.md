@@ -15,8 +15,37 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-25
+<!-- DAILY_CHECKIN_2025-11-25_START -->
+## Day2 半休日
+
+### 配置了 WSL 环境
+
+-   Ubuntu LTS 24.04
+    
+-   不知为何,自带的 NAT 模式无法使用, 配置了 Bridge 模式
+    
+    -   在hyperv manager 中创建名为WSLBridge(或其他)的虚拟交换机, 选中物理网卡并允许宿主机访问该显卡.
+        
+
+```
+# %UserProfile%\.wslconfig
+
+[wsl2]
+# 启用桥接模式
+networkingMode=bridged
+# 指定刚才创建的虚拟交换机名称
+vmSwitch=WSLBridge
+# 启用 IPv6 (可选，根据你路由器支持情况)
+ipv6=true
+# 分配内存限制 (可选，防止 WSL 吃光内存)
+memory=4GB
+```
+<!-- DAILY_CHECKIN_2025-11-25_END -->
+
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 \## 什么是ZetaChain?
 
 一个通用区块链, 能够原生访问任何区块链网络,并且跨网络进行发起交易,换购数字货币

@@ -33,6 +33,7 @@ Explorer 用于查看链上信息：[https://zetachain-athens.blockpi.network/](
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
 
+
 ## zetachain
 
 在ZetaChain上部署一次应用，就能自动连接到其生态中的所有区块链。未来当ZetaChain支持新的链时，应用自动获得与该新链交互的能力，无需修改或重新部署代码

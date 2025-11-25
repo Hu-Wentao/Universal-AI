@@ -15,8 +15,73 @@ web3独立开发者，曾编写过solana合约、套利等
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-25
+<!-- DAILY_CHECKIN_2025-11-25_START -->
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                 从 Ethereum 到 BSC 的跨链调用                      │
+└─────────────────────────────────────────────────────────────────┘
+
+[用户钱包 - Ethereum]
+     │ 调用: depositAndCall(
+     │   receiver: 0xUniversalOnZetaChain,  ← 地址1
+     │   message: encode(56, 0xConnectedOnBSC, "Hello")  ← 包含地址2
+     │ )
+     ▼
+┌─────────────────────┐
+│  Ethereum Chain     │
+│  Connected 合约     │
+└──────────┬──────────┘
+           │ gateway.depositAndCall(...)
+           ▼
+     [Ethereum Gateway]
+           │ 发出跨链事件
+           │
+    ┌──────┴──────┐
+    │ ZetaChain   │
+    │ 观察者网络   │
+    └──────┬──────┘
+           │ 共识验证
+           ▼
+┌─────────────────────┐
+│  ZetaChain          │
+│  Universal 合约     │ ← onCall() 被触发
+└──────────┬──────────┘
+           │ 1️⃣ decode(message)
+           │    → targetChainId = 56
+           │    → targetContract = 0xConnectedOnBSC
+           │    → targetData = "Hello"
+           │
+           │ 2️⃣ gateway.withdrawAndCall(
+           │       0xConnectedOnBSC,  ← 使用解析出的地址2
+           │       ...
+           │    )
+           ▼
+   [ZetaChain Gateway]
+           │ 发出提取指令
+           │
+    ┌──────┴──────┐
+    │ ZetaChain   │
+    │ 观察者网络   │
+    └──────┬──────┘
+           │ 监控并执行
+           ▼
+     [BSC Gateway]
+           │ executeRevert() 或 execute()
+           ▼
+┌─────────────────────┐
+│  BSC Chain          │
+│  Connected 合约     │ ← onCall() 接收消息
+└──────────┬──────────┘
+           │ 执行业务逻辑
+           ▼
+    [目标应用/用户]
+```
+<!-- DAILY_CHECKIN_2025-11-25_END -->
+
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 # ERC20和ZRC20：
 
 ## **ERC20：**

@@ -216,11 +216,44 @@ print(response.choices[0].message.content)
 ---
 ````
 
+这里是千问（新加坡）调用在终端的效果：
+
 ![Screenshot 2025-11-25 165615.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/JunZ-Leo/images/2025-11-25-1764061097682-Screenshot_2025-11-25_165615.png)
+
+```markdown
+ZetaChain & Universal Blockchain 核心概念
+
+**目标**
+- 理解 "通用区块链 / Universal EVM / Universal App / Omnichain Smart Contract" 的基本含义。
+- 能用图的方式表示：ZetaChain + 多条公链 + Gateway 的大致结构。
+```
+
+```markdown
+- Universal App（通用应用）：
+  - 一类可以跨多个区块链交互的去中心化应用（dApp）。它的合约/逻辑不是只在某一条链上运行，而是通过一个“通用层”（如 ZetaChain）与多条链进行消息与资产交互。开发者可以在一个地方写一次逻辑，然后触发在多链上发生的行为。
+  - 举例：在 ZetaChain 上部署的 Universal 合约接收到来自比特币链的事件后，触发以太坊上的操作（转账或合约调用）。
+
+- Universal EVM：
+  - 指一个 EVM 兼容的执行层，但具备“通用/跨链”能力，允许 EVM 合约发起、接收并处理来自多条链的事件与消息。换句话说，它保留了 EVM 的开发体验，同时扩展了跨链语义。
+
+- Omnichain Smart Contract（全域/全链智能合约）：
+  - 能直接与多条链进行交互的智能合约。它不需要在每条链分别部署不同的合约来实现跨链逻辑，而是可以通过中继或跨链协议一次性管理跨链状态与消息。Universal Contract 是一种 Omnichain 合约的实现。
+
+- Gateway（网关 / 跨链中继）：
+  - Gateway 的核心职责是：监听各个外部链（例如比特币、以太坊、Solana）上的事件（比如交易、合约事件），把这些事件以统一的格式传递到 ZetaChain（或通用层），同时把 ZetaChain 上发往外链的指令安全地传回相应外链并提交执行。
+  - 它通常负责消息验证、证明（proofs）或通过一组去中心化节点签名确保跨链消息不可伪造、可验证。
+```
+
+图示：
+
+![Screenshot 2025-11-25 173742.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/JunZ-Leo/images/2025-11-25-1764063498352-Screenshot_2025-11-25_173742.png)
+
+我今天同时在上班摸鱼时间去看了下以太坊白皮书，还有Next.js来增加下知识储备。期望能在本周末之前先跑出来一个原型。
 <!-- DAILY_CHECKIN_2025-11-25_END -->
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 \## 概要
 

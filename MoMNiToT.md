@@ -128,7 +128,7 @@ timezone: UTC+8
 -   Transfer supported tokens across connected chains 在连接的链之间转移支持的代币
     
 
-![image-20251125205643580](file:///C:/Users/%E7%8E%8B%E6%80%9D%E5%93%B2/Documents/MOCODE/Universal%20BlockChain/Day2%EF%BC%9A%E7%8E%AF%E5%A2%83%E5%92%8C%E5%B7%A5%E5%85%B7%E5%AE%9E%E6%88%98.assets/image-20251125205643580.png?lastModify=1764076471)
+![屏幕截图 2025-11-25 211518.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/MoMNiToT/images/2025-11-25-1764076531636-_____2025-11-25_211518.png)
 
 有些警告，但是创建了样例项目模板
 
@@ -189,6 +189,7 @@ timezone: UTC+8
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 **Universal APP：**
 

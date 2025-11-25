@@ -87,10 +87,45 @@ Again and again ~
 [PostMan](https://www.postman.com/downloads/)
 
 需要注意处理器版本，看看是不是RAM版本
+
+## 初始化ZetaChain环境
+
+```
+npx zetachain@latest new --project hello
+cd hello
+yarn
+forge soldeer update
+```
+
+初始化成功后，会自动生成一个通用合约模板
+
+```
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.26;
+
+import "@zetachain/protocol-contracts/contracts/zevm/interfaces/UniversalContract.sol";
+
+contract Universal is UniversalContract {
+    event HelloEvent(string, string);
+
+    function onCall(
+        MessageContext calldata context,
+        address zrc20,
+        uint256 amount,
+        bytes calldata message
+    ) external override onlyGateway {
+        string memory name = abi.decode(message, (string));
+        emit HelloEvent("Hello: ", name);
+    }
+}
+```
+
+我当时报错说是编译器是0.8.30以上版本，在0.8.26前面加^就行了表示当前合约支持大于0.8.26,小于0.9.0的版本
 <!-- DAILY_CHECKIN_2025-11-25_END -->
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 
 # 第一份WEB3笔记

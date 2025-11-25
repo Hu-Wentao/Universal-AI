@@ -20,12 +20,13 @@ timezone: UTC+8
 学习了ZetaChain中的一些Tools，  
 [https://www.zetachain.com/docs/reference](https://www.zetachain.com/docs/reference)
 
+  
+Foundry是用于开发测试合约的一组工具，  
+其中anvil是对以太坊的模拟  
+ZetaChain中的localnet也是如此，但它的功能更强大还包括了不兼容EVM的链。  
 testnet是对mainnet的复制，用于开发测试
 
-localnet也是如此，但它运行于本地
-
-faucet是用于获取testnet中的测试币的一些地点
-
+faucet是用于获取testnet中的测试币的一些地点  
 如果使用localnet进行测试则不需要领取gas费
 
 Explorers是用于浏览交易，合约，搜索地址的浏览工具
@@ -35,6 +36,7 @@ RPC就像HTTP API一样，HTTP API是与外部网站进行交互的接口，而R
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 node -v
 

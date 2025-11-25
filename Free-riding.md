@@ -15,8 +15,76 @@ Again and again ~
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-25
+<!-- DAILY_CHECKIN_2025-11-25_START -->
+# ZetaChain和区块链一些基础
+
+## ZetaChain
+
+-   ZetaChain是 主链（Layer 1）
+    
+-   全链智能合约，开发者编写一次智能合约，即可在任意连接链上接收事件并执行逻辑
+    
+-   ZetaChain 的独特优势在于支持非智能合约链如：Bitcoin
+    
+-   通过协议层原生支持跨链消息与资产，无需桥或封装
+    
+
+## Layer 1 和Layer 2
+
+### L1
+
+-   Layer 1 是指底层的主区块链协议本身，它主要负责共识机制（如 PoW、PoS），数据存储（账本），原生代币（如 BTC、ETH）和基础安全性与去中心化
+    
+-   L1 的扩容通过**直接修改底层协议**实现
+    
+-   安全性高（直接由主链共识保障）
+    
+-   去中心化程度通常较高
+    
+-   无需依赖外部系统
+    
+-   升级困难（需全网共识，硬分叉风险）
+    
+-   扩容能力有限（如 Bitcoin TPS ≈ 7，Ethereum ≈ 15–30）
+    
+-   交易费用高、速度慢（尤其在高负载时）
+    
+
+### L2
+
+-   **Layer 2 是构建在 Layer 1 之上的附加协议或网络**，目的是**提升交易吞吐量、降低费用，同时继承 L1 的安全性**。L2 本身不独立维护完整区块链，而是将大部分计算或存储“移出主链”，只在必要时与 L1 交互。
+    
+-   **高 TPS**：可达数千甚至上万笔/秒（如 zkSync 目标 2000+ TPS）
+    
+-   **低 Gas 费**：交易成本降低 10–100 倍
+    
+-   **快速确认**：部分操作秒级完成
+    
+-   **兼容 EVM**：多数 Rollup 支持以太坊智能合约无缝迁移
+    
+-   **复杂性高**：用户需理解“桥接”“提款延迟”等概念
+    
+-   **提款延迟**（Optimistic Rollup）：通常需 7 天挑战期
+    
+-   **中心化风险**（早期 L2）：排序器（Sequencer）可能由单一实体控制
+    
+-   **碎片化**：L2 之间互通困难（如 Arbitrum 和 Optimism 资产不能直接互转）
+    
+
+## ZetaChain的领水地址(需要登陆Discord)
+
+[FAUCETME](https://zetachain.faucetme.pro/)
+
+## 重新注册了Discord
+
+## 重新注册了国内版的阿里云百炼（国外的需要用非内地手机号）  
+[阿里云百炼](https://bailian.console.aliyun.com/?tab=model#/efm/model_experience_center/text)
+<!-- DAILY_CHECKIN_2025-11-25_END -->
+
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 # 第一份WEB3笔记
 
 ## 一.ZetaChain开发文档入口

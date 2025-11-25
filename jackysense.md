@@ -43,6 +43,10 @@ zetachain localnet start
 
 ![dd7034a1-7c89-4d1d-87d8-a46f418395de.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/jackysense/images/2025-11-25-1764077716227-dd7034a1-7c89-4d1d-87d8-a46f418395de.png)
 
+创建账户
+
+![15d259c8-a7cd-4590-9234-ea85224f53a0.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/jackysense/images/2025-11-25-1764077962082-15d259c8-a7cd-4590-9234-ea85224f53a0.png)
+
 **Qwen API 的简单请求：**
 
 ![3a8fbf91b0d9dfe9c2c27ef268b0ad46.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/jackysense/images/2025-11-25-1764077332232-3a8fbf91b0d9dfe9c2c27ef268b0ad46.png)
@@ -50,6 +54,7 @@ zetachain localnet start
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 
 zeta 通用AI原理 :ZetaChain 有个Gateway 协议作为桥梁：从通用应用程序向连接链上的合约调用和提取代币。

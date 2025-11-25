@@ -19,7 +19,7 @@ tg写的微信号
 <!-- DAILY_CHECKIN_2025-11-25_START -->
 RPC 让app连接到测试网：[https://zetachain-athens-evm.blockpi.network/v1/rpc/public](https://zetachain-athens-evm.blockpi.network/v1/rpc/public)
 
-Faucet 领测试币：[https://www.zetachain.com/docs/developers/faucet/](https://www.zetachain.com/docs/developers/faucet/)
+Faucet 领测试币：[https://zetachain.faucetme.pro/](https://zetachain.faucetme.pro/)
 
 Explorer 用于查看链上信息：[https://zetachain-athens.blockpi.network/](https://zetachain-athens.blockpi.network/)
 
@@ -32,6 +32,7 @@ Explorer 用于查看链上信息：[https://zetachain-athens.blockpi.network/](
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 
 ## zetachain

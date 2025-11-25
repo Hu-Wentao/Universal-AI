@@ -78,12 +78,20 @@ Again and again ~
 
 ## 重新注册了Discord
 
-## 重新注册了国内版的阿里云百炼（国外的需要用非内地手机号）  
+## 重新注册了国内版的阿里云百炼（国外的需要用非内地手机号）
+
 [阿里云百炼](https://bailian.console.aliyun.com/?tab=model#/efm/model_experience_center/text)
+
+## 下载了PostMan
+
+[PostMan](https://www.postman.com/downloads/)
+
+需要注意处理器版本，看看是不是RAM版本
 <!-- DAILY_CHECKIN_2025-11-25_END -->
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 # 第一份WEB3笔记
 

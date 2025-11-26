@@ -15,8 +15,33 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+# Day 3
+
+1.  什么是 Universal App？
+    
+
+-   Universal App 是 ZetaChain 上的智能合约，原生连接以太坊、BNB 和比特币等其他区块链。
+    
+
+2.  什么是 Gateway?
+    
+
+-   是一个接口，作为连接链上的合约与 ZetaChain 上的通用应用之间交互的统一入口。
+    
+-   分别部署在连接链和 Zeta 链，处理双方的合约调用逻辑。
+    
+
+3.  ZetaChain 跨链示意图
+    
+
+-   [figma](https://www.figma.com/file/mYXNTORUuvGVaQ01SF7h9Y?type=design&node-id=0%3A1&mode=design)
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 # Day 2
 
 1.  安装了 zetachain cli
@@ -49,6 +74,7 @@ timezone: UTC+8
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 # Day 1
 

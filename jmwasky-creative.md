@@ -22,24 +22,24 @@ java开发，了解智能合约，熟悉使用dify，coze，ai编程工具
 -   Universal App 是什么？
     
 
-  A universal app is a smart contract on ZetaChain that is natively connected to other blockchains like Ethereum, BNB and Bitcoin. Universal app 是zetachain的智能合约
+A universal app is a smart contract on ZetaChain that is natively connected to other blockchains like Ethereum, BNB and Bitcoin. Universal app 是zetachain的智能合约
 
-  可以在各自不同链不同系统之间进行数据交换
+可以在各自不同链不同系统之间进行数据交换
 
 -   Gateway 大概做什么？
     
 
-  gateway用于与zetachain交互数据
+  gateway用于处理不同区块链之间的交易，统一处理完成后与zetachain处理inbount和outbound事务
 
 -   Universal EVM
     
 
-  用于运行universal app 的智能合约平台，zetachain是基于Cosmos SDK和 CometBFT and Cosmet EVM
+用于运行universal app 的智能合约平台，zetachain是基于Cosmos SDK和 CometBFT and Cosmet EVM
 
 -   Omnichain Smart Contract
     
 
-  全链智能合约
+全链智能合约
 
 # ZetaChain简单架构图
 
@@ -48,6 +48,7 @@ java开发，了解智能合约，熟悉使用dify，coze，ai编程工具
 
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 
 -   安装或尝试使用 ZetaChain CLI（本地或云端环境均可）。
     
@@ -133,6 +134,7 @@ curl https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generat
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 
 1.注册了qwen账号

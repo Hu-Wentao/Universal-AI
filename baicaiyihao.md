@@ -15,8 +15,16 @@ MOVE Smart Contract Dev and Security Researcher
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+安装zeta cli并且尝试qwen api调用
+
+了解了zeta如何与sui链合约进行交互
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 学习了[zeta 文档](https://www.zetachain.com/docs/start)中的简介部分
 
 1.  是什么 ZetaChain 是首个实现所有区块链生态系统原生连接的通用区块链。

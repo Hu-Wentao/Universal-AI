@@ -88,17 +88,19 @@ timezone: UTC+8
 -   **出站流 (ZetaChain -> Connected Chain):** 通用应用通过调用 ZetaChain 上的协议合约，指示 ZetaChain 的**观察者-签名者**，代表 ZetaChain 签署一笔交易，对目标连接链（如 Ethereum 或 BNB Chain）发起合约调用或代币提取。
     
 
-![screenshot-20251126-235044.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/LouisCanBe/images/2025-11-26-1764172264865-screenshot-20251126-235044.png)
+![screenshot-20251126-235044.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/LouisCanBe/images/2025-11-26-1764172264865-screenshot-20251126-235044.png)![screenshot-20251126-235459.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/LouisCanBe/images/2025-11-26-1764172513162-screenshot-20251126-235459.png)
 <!-- DAILY_CHECKIN_2025-11-26_END -->
 
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 
 了解了qwen，zetachain的部署使用，llm api调用没问题，链相关的内容还没太搞懂
 <!-- DAILY_CHECKIN_2025-11-25_END -->
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 
 已加入社区，能正常访问页面。

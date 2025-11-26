@@ -15,8 +15,16 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+**Universal App是一个能以去中心化方式统一管理和操作多条区块链的智能合约**
+
+**Gateway（网关）**​ 是ZetaChain生态系统中的关键“门户”或“桥梁”。每条连接到ZetaChain的区块链上都会部署一个Gateway合约。
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 ### **1\. ZetaChain CLI 安装成功**
 
 ### **2\. ZetaChain测试网环境掌握**
@@ -49,6 +57,7 @@ timezone: UTC+8
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 我已经了解了zetachain 并初步浏览了其中的各个页面，并理解了一定的含义。
 

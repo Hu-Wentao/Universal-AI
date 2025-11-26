@@ -15,8 +15,23 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+ERC-20是Ethereum Request for Comment 20，是在以太坊上创建同质化代币的标准。  
+ZRC-20是ERC-20代币或者比特币等等在ZetaChain上的映射
+
+tokens 在区块链的语境下是代币的意思  
+ZetaChina中的原生代币是ZETA
+
+universal app就是zetachain上的智能合约，zetachain上的智能合约和一般智能合约不同，具有主动调用其他合约能力，一般的智能合约智只能被调用
+
+外部链上的gateway的功能是作为交易的接收方或者发起方，与交易的发起方或者接受方进行交易。  
+ZetaChian上的gateway的功能是将universal contract执行的结果传出到其他链上的gateway
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 学习了ZetaChain中的一些Tools，  
 [https://www.zetachain.com/docs/reference](https://www.zetachain.com/docs/reference)
 
@@ -35,6 +50,7 @@ RPC就像HTTP API一样，HTTP API是与外部网站进行交互的接口，而R
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 
 

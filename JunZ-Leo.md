@@ -15,8 +15,83 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+# **Universal App + Hello World 心智模型**
+
+```markdown
+建立对 “全链应用 / Universal App 合约” 的直观理解。
+```
+
+```markdown
+清楚后面要实现的 Hello World / Demo 会包含哪些模块（合约 + 前端 + RPC）。
+```
+
+我想做的第一个 Universal App
+
+功能：允许用户在任意注册的外链（示例：Bitcoin、Ethereum、Solana）触发一次“Hello”操作，网关将外链事件提交到 ZetaChain，Universal Contract 在 ZetaChain 上记录一条统一格式的日志（包含 source\_chain、origin\_addr、message、nonce、timestamp）。  
+简单逻辑：每条日志增加计数器（totalHellos），并发出事件 \`HelloRecorded(source\_chain, origin\_addr, message, id)\`；客户端可以查询最新日志或按来源链过滤。  
+为什么简单：只涉及监听外链事件、提交消息与在 Universal Contract 上记录事件，不需要复杂的资产桥或锁定逻辑，适合作为 Hello World 入门。
+
+工作流：
+
+合约开发：Foundry  
+CLI 与部署：使用现有的zetachain-cli来管理跨链配置与注册 Gateway 地址，利用 forge 进行本地部署与测试。  
+本地验证：先在 anvil / localnet 上完成开发与自动化测试（快速迭代，低成本）。  
+集成测试：把相同部署脚本切换到 ZetaChain 测试网（或公共测试网）进行联调。  
+前端：一个最小的 React + Ethers.js 页面，用来发起“Hello”请求。
+
+为 Hello World 示例完成初步实现并在本地运行测试：  
+  
+合约路径：\`call/contracts/UniversalHello.sol\`  
+测试路径：\`call/test/UniversalHello.t.sol\`（使用 Foundry \`forge-std\` 测试库）  
+主要功能：\`recordHello(srcChain, origin, message, nonce)\` 将消息记录到链上并触发事件 \`HelloRecorded\`；提供 \`getHello(id)\` 与 \`totalHellos()\` 查询接口。  
+
+```markdown
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
+
+contract UniversalHello {
+  struct Hello { string srcChain; address origin; string message; uint256 nonce; }
+
+  mapping(uint256 => Hello) private hellos;
+  uint256 private total;
+
+  event HelloRecorded(string indexed srcChain, address indexed origin, string message, uint256 id);
+
+  function recordHello(string memory srcChain, address origin, string memory message, uint256 nonce) public {
+    total += 1;
+    hellos[total] = Hello(srcChain, origin, message, nonce);
+    emit HelloRecorded(srcChain, origin, message, total);
+  }
+
+  function getHello(uint256 id) public view returns (string memory, address, string memory, uint256) {
+    Hello memory h = hellos[id];
+    return (h.srcChain, h.origin, h.message, h.nonce);
+  }
+
+  function totalHellos() public view returns (uint256) {
+    return total;
+  }
+}
+```
+
+运行测试
+
+```markdown
+cd /root/canku/call
+# 编译并运行 Foundry 测试
+forge test -v
+```
+
+![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/JunZ-Leo/images/2025-11-26-1764164397403-image.png)
+
+后续会迭代包含访问控制的版本，顺便搓出来一个好看点的前端
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 ````markdown
 # ZetaChain + Qwen API 环境与工具实战
 
@@ -253,6 +328,7 @@ ZetaChain & Universal Blockchain 核心概念
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 
 \## 概要

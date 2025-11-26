@@ -15,8 +15,26 @@ WEB3 ROOKIE
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+## Universal App = 一个合约控制所有链的资产
+
+**Universal App是部署在 ZetaChain 的 Universal EVM 上 的智能合约，它可以 直接操作多条外部区块链上的资产与数据，而不需要部署多链版本的合约（很蛋疼的就是之前做一个项目做完evm就要继续肝solana，其实差不多但是工作量会翻倍，还有联调测试的一些环节）**
+
+## Gateway 是 ZetaChain 的跨链消息入口 / 出口。
+
+Gateway = 外部链 ↔ ZetaChain 的官方跨链通信层
+
+Universal App 负责逻辑，Gateway 负责和每条链沟通、执行真实链上动作  
+  
+  
+
+![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/RSXLX/images/2025-11-26-1764166895768-image.png)
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 未来两周希望可以理解到zetachain的特性，链与链交互原理之类的：  
 ① 每条外链上有 “ZetaChain 控制的链上账户”
 
@@ -130,6 +148,7 @@ API的调用
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 
 1 ZetaChain 的核心是 跨链智能合约（Omnichain Smart Contract）类似中转

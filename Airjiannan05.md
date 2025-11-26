@@ -15,8 +15,363 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+ZetaChain & Universal Blockchain 核心概念
+
+**学习目标**
+
+-   理解 “通用区块链 / Universal EVM / Universal App / Omnichain Smart Contract” 的基本含义。
+    
+-   能用图的方式画出：ZetaChain + 多条公链 + Gateway 的大致结构。
+    
+
+**学习资料**
+
+-   Universal Apps 概览
+    
+
+[https://www.zetachain.com/docs/start/app](https://www.zetachain.com/docs/start/app)
+
+-   开发者总览（Universal EVM / Gateway / Cross-Chain）
+    
+
+[https://www.zetachain.com/docs/developers](https://www.zetachain.com/docs/developers)
+
+**扩展资料（可选）**
+
+-   为什么在 ZetaChain 上面开发？
+    
+
+[https://www.zetachain.com/docs/start/build](https://www.zetachain.com/docs/start/build)
+
+-   ZetaChain 架构设计（粗略看一遍）
+    
+
+[https://www.zetachain.com/docs/developers/architecture/overview](https://www.zetachain.com/docs/developers/architecture/overview)
+
+**实践 / 作业**
+
+-   在笔记中用自己的话写出：
+    
+    -   Universal App 是什么？
+        
+    -   Gateway 大概做什么？
+        
+-   画一张简单的架构图：
+    
+-   ZetaChain 中心 + Bitcoin / Ethereum / Solana 等外围链 + Gateway。
+    
+
+# What is Universal App ?
+
+## 理解
+
+我的理解：部署在区块链（ZetaChain）上的一个智能合约，但它可以**同时连接和操作其他区块链。**
+
+总结一下特点：
+
+**1\. 单个合约，统治所有** 传统的跨链应用需要在每条链上都部署合约。你在以太坊部署一个。你在币安链部署一个。你在 Polygon 部署一个。 ZetaChain 的 Universal App 只需要**部署一次**。它部署在 ZetaChain 的 EVM（以太坊虚拟机）兼容层上。它就能控制连接到网络的所有链。这极大降低了开发难度。
+
+**2\. 赋予比特币智能合约能力**
+
+比特币本身不支持复杂的智能合约。普通的 DeFi 应用无法直接使用原生比特币。 Universal App 解决了这个问题。它通过 ZetaChain 的账户系统持有比特币。开发者可以在 Universal App 里编写逻辑来控制这些比特币。用户可以在 Uniswap 风格的界面里使用原生比特币交易。不需要把比特币包装成 WBTC。
+
+**3\. ZRC-20 标准：万能转接头** ZetaChain 发明了一种代币标准叫 **ZRC-20**。 当用户把比特币、以太坊或 DOGE 充值进 ZetaChain 系统时。这些资产在 ZetaChain 内部会显示为 ZRC-20 代币。 开发者写代码时。他们只需要处理 ZRC-20 代币。这就像处理普通的 ERC-20 代币一样简单。 当用户提款时。ZRC-20 代币会被销毁。ZetaChain 会在对应的源链（比如比特币网络）上把原生资产转回给用户。
+
+## 示例
+
+```Solidity
+pragma solidity 0.8.26;
+ 
+import "@zetachain/protocol-contracts/contracts/zevm/interfaces/UniversalContract.sol";
+ 
+contract UniversalApp is UniversalContract {
+    function onCall(
+        MessageContext calldata context,
+        address zrc20,
+        uint256 amount,
+        bytes calldata message
+    ) external virtual override {
+        // ...
+    }
+}
+```
+
+## [Calling Universal App](https://www.zetachain.com/docs/start/app#calling-universal-apps)s
+
+用户可以通过与连接链上的**网关合约**交互来调用通用应用。
+
+每个连接链都有一个单一的网关合约，该合约会暴露向通用应用存入和调用代币的方法。用户可以同时传递数据以及调用通用应用时的令牌。
+
+例如:一名以太坊用户向一个通用应用发送了1个ETH和一条消息“hello”
+
+![](https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=NzFjZDQ0MGY5ZTU2M2U3ZWYyZWI0OGRmMGMwOWU3YjBfVEViMjlHbjZseVBicmdLQ00ydFlmdXd2dFY3MVJ5WkRfVG9rZW46S29iMWI0aXVMb21HRmN4TkFJR2NYZllmbmliXzE3NjQxNjU5Njg6MTc2NDE2OTU2OF9WNA)
+
+# Gateway
+
+-   功能上，它是连接 ZetaChain 和外部区块链（如以太坊、币安链、Polygon）的关键接口。
+    
+-   本质上，Gateway 是**部署在连接链（Connected Chains）上的智能合约**。
+    
+
+ZetaChain 本身是一条链。以太坊（Ethereum）是另一条链。它们俩语言不通，无法直接对话。ZetaChain 开发团队**在以太坊上部署了一个智能合约**，这个合约就叫 **Gateway**。所有进出 ZetaChain 的资金和信息，都要经过这个合约。
+
+_注：对于比特币这种不支持智能合约的链，Gateway 的形式是一个受 TSS 技术控制的托管地址，功能类似，但实现方式不同。_
+
+## Gateway 的核心职责
+
+Gateway 主要负责处理两个方向的流量：**进（Inbound）**和 **出（Outbound）**。
+
+A. 资产“进”站（存款/充值）
+
+当你想把以太坊上的 USDT 放到 ZetaChain 上用时：
+
+1.  **用户操作：** 你把 USDT 发送到以太坊上的 **Gateway 合约地址**。
+    
+2.  **锁定/托管：** Gateway 收到你的钱。它把钱锁在合约里。这笔钱现在由 Gateway 保管。
+    
+3.  **发出信号：** Gateway 会在以太坊上生成一个“事件日志”（Event Log）。
+    
+4.  **ZetaChain 观察：** ZetaChain 的观察者节点（Observers）盯着 Gateway。它们看到了这个信号。
+    
+5.  **铸造资产：** ZetaChain 在自己的网络里，凭空印出等量的 **ZRC-20 USDT** 给你。
+    
+
+**简单说：** Gateway 在外部链上替你保管原版资产，作为凭证。
+
+B. 资产“出”站（提现/支付）
+
+当你在 ZetaChain 上操作完毕，想把 USDT 提回以太坊钱包时：
+
+1.  **用户操作：** 你在 ZetaChain 上销毁（Burn）了你的 ZRC-20 USDT。
+    
+2.  **ZetaChain 决策：** ZetaChain 网络验证这笔交易。网络节点达成共识：“好的，我们要把钱还给他。”
+    
+3.  **TSS 签名：** ZetaChain 的节点们共同生成一个签名（私钥是切片保存的，没有任何一个人能单独控制）。
+    
+4.  **执行命令：** 这个签名被发送给以太坊上的 **Gateway 合约**。
+    
+5.  **释放资金：** Gateway 验证签名。确认是 ZetaChain 官方发来的指令。它从锁定的资金池里解锁 USDT，转回给你的以太坊钱包。
+    
+
+**简单说：** Gateway 听从 ZetaChain 网络的集体指令，释放资金。
+
+C. 信息传递（跨链调用）
+
+Gateway 不止管钱，还管数据。
+
+-   **调用外部合约：** 你在 ZetaChain 上的 Universal App 可以发出指令。这个指令传给 Gateway。Gateway 再去调用以太坊上的 Uniswap 或 Aave 合约。
+    
+-   **传递普通信息：** 它可以把一段文本或数据从这条链传到那条链。
+    
+
+## 关键技术点理解：MPC-TSS（**Threshold Signature Scheme-门限签名方案）**
+
+核心原理：私钥分片
+
+传统的区块链钱包有一把**私钥**。这把私钥像一把物理钥匙。谁拿着它，谁就能打开保险柜（控制资金）。如果私钥丢了，钱就丢了。如果私钥被偷了，钱就被偷了。
+
+TSS 改变了这个规则。
+
+**TSS 的做法：**
+
+-   系统不生成一把完整的私钥。
+    
+-   系统通过数学算法生成很多个\*\***“私钥碎片**”\*\*（Key Shares）。
+    
+-   系统把这些碎片分给不同的人（在 ZetaChain 里是验证节点）。
+    
+-   **关键点：** 完整的私钥从来没有出现过。连拿到碎片的人都不知道完整的私钥长什么样。
+    
+
+工作机制：门限（Threshold）
+
+“门限”是一个数字。它代表“最少需要多少人同意”。
+
+我们假设一个场景：
+
+-   **总人数 (n)：** 100 个节点。
+    
+-   **门限值 (t)：** 67 个节点。
+    
+
+**运作流程：**
+
+1.  有人发起一笔提款请求。
+    
+2.  节点们检查这笔请求是否合法。
+    
+3.  如果节点同意，它就用自己的“碎片”进行一次数学计算。
+    
+4.  当有 67 个节点完成了计算。
+    
+5.  系统把这些计算结果拼在一起。
+    
+6.  数学魔术发生了：这产生了一个**有效的签名**。
+    
+7.  区块链看到这个签名。它认为这是合法的。它执行交易。
+    
+
+如果只有 66 个人同意。或者黑客偷了 50 个碎片。签名无法生成。交易会失败。
+
+TSS 和 多重签名 (Multisig) 的区别
+
+你可能会把 TSS 和多重签名钱包混淆。它们看起来很像。它们都需要多人同意。但它们在技术上有很大不同。
+
+**多重签名 (Multisig)：**
+
+-   **发生在链上：** 区块链知道有 3 个人要签名。
+    
+-   **成本高：** 3 个人签名。区块链要存 **3 个签名**的数据。手续费（Gas）很贵。
+    
+-   **隐私差：** 所有人都能看到是哪 3 个地址签了名。
+    
+
+**TSS 签名：**
+
+-   **发生在链下：** 节点们在私下里进行数学计算。
+    
+-   **成本低：** 无论 100 人还是 1000 人参与。最终生成的签名**只有一个**。它看起来像普通的单人签名。手续费很便宜。
+    
+-   **隐私好：** 没人知道具体是哪几个人签的。外界只看到结果。
+    
+
+为什么 ZetaChain 必须用 TSS？
+
+ZetaChain 无法在比特币网络上部署智能合约。比特币不支持这个。ZetaChain 必须拥有一个比特币地址来保管用户的 BTC。
+
+**问题来了：** 谁掌握这个比特币地址的私钥？
+
+-   如果是 CEO 掌握。他可能卷款跑路。
+    
+-   如果是多重签名。比特币网络对签名数量有限制（通常最多十几个人）。ZetaChain 有几百个节点。多重签名做不到。
+    
+
+**TSS 是唯一的解决方案：**
+
+-   它能让几百个节点共同管理一个比特币地址。
+    
+-   它不需要比特币网络升级或支持新功能。
+    
+-   它让比特币网络以为这只是一个普通的个人用户在操作。
+    
+
+安全性优势
+
+**没有单点故障：** 你需要一把钥匙开门。钥匙断了就麻烦了。TSS 没有完整的钥匙。如果一个节点断网了。或者一个节点的硬盘坏了。这没关系。只要剩下的节点数量还够“门限值”。网络就能正常工作。
+
+**刷新机制 (Key Rotation)：** TSS 支持一种叫“密钥刷新”的技术。节点们可以定期更新手里的碎片。虽然碎片变了，但它们组合出来的那个“虚拟公钥”地址不变。 这意味着黑客必须在**同一时间**攻破 67 个节点才能偷到钱。如果黑客今天攻破一个，明天攻破一个。因为碎片已经刷新了。旧碎片就作废了。这极大地提高了安全性。
+
+# 架构图
+
+这个很好描述了他们之间的关系xxx
+
+![](https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=MGRiYWRlZWIyYTBkNDFhZWYzM2I4OGU4MDkyNzgwNjBfblVhRU12TER3RTIydHc5b0c3YzdQaVVndEViR3EyOFBfVG9rZW46U2hqYmJzTUdsb09ueHV4elJFRmNZZWl5blFlXzE3NjQxNjU5Njg6MTc2NDE2OTU2OF9WNA)
+
+# 通用区块链 / Universal EVM /Omnichain Smart Contract
+
+### 通用区块链 (Universal Blockchain)
+
+**定位：基础设施层 / 状态机**
+
+这是一个专门为跨链互操作性构建的 Layer 1 区块链。它不仅仅是一个传输信息的“中继器”。它维护着一个全局状态。这个状态包含了所有连接链（比特币、以太坊等）的账户和资产信息。
+
+**核心技术机制：**
+
+-   **去中心化观察者 (Decentralized Observers)：** ZetaChain 的验证节点运行着一种名为“观察者”的客户端。这些客户端实时扫描外部链（如 Bitcoin 内存池或 Ethereum 区块）。它们寻找特定的交易或事件。一旦发现，节点们会通过共识机制确认这个事件确实发生了。这解决了“读”的问题。
+    
+-   **TSS 门限签名 (Threshold Signature Scheme)：** 这是“写”的核心。区块链没有单一的私钥来控制外部资产。系统生成一个数学上的分布式私钥。这个私钥被切分成碎片。碎片分发给所有验证节点。只有超过 2/3 的节点同时也签署交易，外部链上的 Gateway 才会执行操作。这保证了没有任何单一实体能窃取资金。
+    
+-   **基于 Cosmos SDK 的共识：** 通用区块链通常基于 Cosmos SDK 构建。这提供了极快的区块确认速度（Instant Finality）。这对于处理高频的跨链交易非常关键。
+    
+
+### Universal EVM (通用以太坊虚拟机)
+
+**定位：执行引擎层 / 兼容与扩展**
+
+标准的 EVM 是一个封闭的沙盒。它只能修改自身链上的数据。Universal EVM 打破了这个沙盒。它在标准 EVM 的基础上增加了 **zEVM 模块**。
+
+**核心技术特性：**
+
+-   **ZRC-20 资产映射标准：** 这是 Universal EVM 的核心创新。当比特币或以太坊进入系统时，系统会自动创建一个 ZRC-20 代币合约。这个合约是外部原生资产在 ZetaChain 内部的“影子”。
+    
+    -   开发者调用 ZRC-20 合约的 `transfer` 函数。
+        
+    -   Universal EVM 不仅更新内部账本。
+        
+    -   它还会触发底层的 TSS 模块，在外部链上发起真实转账。
+        
+-   **同步执行环境：** 在传统跨链中，A 链和 B 链是异步的。你在 A 链发令，不知道 B 链什么时候执行。在 Universal EVM 中，操作是同步的。你在一个区块内就能完成“读取输入 -> 计算逻辑 -> 改变状态”的过程。
+    
+-   **Gas 费抽象 (Gas Abstraction)：** 在 Universal EVM 中运行合约时，系统会自动计算外部链需要的 Gas 费。用户可以用一种代币（如 ZETA）支付所有费用。系统后台会自动把这些费用兑换成 ETH 或 BTC，用来支付外部矿工费。
+    
+
+### Omnichain Smart Contract (全链智能合约)
+
+**定位：业务逻辑层 / 统一编排**
+
+这是部署在 Universal EVM 上的智能合约代码。它实现了“单点部署，全网运行”。
+
+**与传统跨链合约的区别：**
+
+-   **传统模型 (Bridge/Messaging)：** 你需要在以太坊写一个合约。你需要在币安链写一个合约。你还需要在两条链之间架设一个消息中继。这增加了攻击面。状态也是割裂的。
+    
+-   **全链模型 (Omnichain)：** 你只在 ZetaChain 上写**一个**合约。这个合约拥有“上帝视角”。
+    
+    -   **输入：** 它可以接收来自比特币网络的 UTXO 作为触发条件。
+        
+    -   **逻辑：** 它可以执行复杂的 DeFi 逻辑（如 AMM 交易、借贷清算）。
+        
+    -   **输出：** 它可以把结果资产分散发送到 Polygon 和 Solana。
+        
+-   **原子性与回滚 (Atomicity & Revert)：** 全链合约需要处理复杂的失败情况。如果外部链（如以太坊）的交易因为滑点过大失败了，全链合约包含了一套回滚机制。这保证了资金要么交易成功，要么原路退回。它不会卡在中间状态。
+    
+
+### 总结三者的协作流
+
+1.  **通用区块链** 提供了物理连接和安全共识（眼睛和手）。
+    
+2.  **Universal EVM** 提供了一个能理解多链资产的计算环境（大脑）。
+    
+3.  **Omnichain Smart Contract** 告诉系统具体要做什么业务（思维逻辑）。
+    
+
+# Q&A
+
+**Q：ZetaChain 决策与 TSS 签名它们两者的核心关系是什么？**
+
+**A：** 它们是大脑**和手**的关系。
+
+-   **ZetaChain 决策**是“大脑”。它负责判断。它决定这笔钱该不该转。
+    
+-   **TSS 签名**是“手”。它负责执行。它负责把钱实际转出去。 只有大脑发出了指令，手才会动。
+    
+
+**Q：在资产“出站”时，第一步发生了什么？**
+
+**A：** 第一步是**决策（共识）**。 当你在 ZetaChain 上发起提现。你会先销毁（Burn）你手里的 ZRC-20 代币。 ZetaChain 的所有验证节点会检查这笔交易。 节点们会确认：“是的，他确实销毁了代币。他的操作是合法的。” 当超过 2/3 的节点都确认了这件事。这就形成了“ZetaChain 决策”。
+
+**Q：TSS 签名是什么时候开始的？**
+
+**A：** TSS 签名紧跟着决策之后开始。 一旦节点们达成了“决策”。它们就会拿出各自保存的私钥碎片。 它们开始进行多方计算（MPC）。 它们共同生成一个签名。这个签名就是给外部链（比如以太坊）看的通行证。
+
+**Q：为什么不能跳过决策，直接签名？**
+
+**A：** 因为没有节点拥有完整的私钥。 私钥被切分成了很多碎片。每个节点只有一片。 如果你想生成有效的签名。你需要大部分节点配合你。 如果网络没有达成“决策”。其他节点就不会配合你进行计算。 你就无法生成签名。你就无法动用 Gateway 里的资金。
+
+**Q：Gateway 怎么知道这个签名是有效的？**
+
+**A：** Gateway 不关心背后的决策过程。 Gateway 只认签名。 ZetaChain 生成的 TSS 签名。在数学上看起来和一个标准的以太坊签名完全一样。 Gateway 看到签名是正确的。它就会认为这是 ZetaChain 官方发来的指令。 它就会打开金库放行资金。
+
+**Q：这一套机制解决了什么安全问题？**
+
+**A：** 它解决了\*\*“内部作恶”\*\*的问题。 在传统的中心化交易所里。管理员一个人就能拿私钥卷款跑路。 在 ZetaChain 里。没有任何一个人、或者一个节点拥有完整的私钥。 想要把钱转走。必须通过全网的“决策”。 这保证了只有合法的交易才能让资金出站。
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 **学习目标**
 
 -   本地 / 云端完成基础开发环境落地。
@@ -332,6 +687,7 @@ B. gRPC & REST (Cosmos SDK 层)
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 # DAY1
 

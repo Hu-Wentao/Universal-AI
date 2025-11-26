@@ -15,8 +15,36 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+1\. Universal App（通用应用）是一种跨链智能合约应用，部署在 ZetaChain 上，但可以直接与多条外部区块链（如 Bitcoin、Ethereum、BNB Chain 等）交互，而无需依赖跨链桥或封装资产。它的核心特点是：
+
+（1）统一流动性：用户可以在不同链上使用原生资产（如原生 BTC、ETH）与合约交互。
+
+（2）无需跨链桥：ZetaChain 作为中心层，直接验证和处理多链交易，避免传统跨链桥的安全风险和复杂性。
+
+（3）全链逻辑：开发者只需在 ZetaChain 上部署一次智能合约，即可管理多链状态和资产。
+
+Universal App 像是“区块链世界的中央服务器”，用户从任何链发送交易，都由 ZetaChain 统一处理并返回结果。
+
+2\. Gateway（网关）是 ZetaChain 与外部区块链之间的通信中继层，负责：
+
+（1）监听事件：监控外部链（如 Ethereum）上的交易或合约事件。
+
+（2）转发交易：将用户在其他链上的操作传递到 ZetaChain，并接收 ZetaChain 的指令，触发目标链的合约调用。
+
+（3）资产托管：临时保管用户跨链转移的原生资产，确保原子交换。
+
+Gateway 像是“邮局”，把不同链的消息打包并安全送达 ZetaChain，反之亦然。
+
+3.
+
+![1126.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/621-hykd/images/2025-11-26-1764172399012-1126.png)
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 任务完成
 
 1\. ZetaChain 测试网资源
@@ -68,6 +96,7 @@ ZetaChain 生态: 完整掌握测试网资源和使用方法，Qwen API: 熟练�
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 ![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/621-hykd/images/2025-11-24-1763995745508-image.png)![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/621-hykd/images/2025-11-24-1763997052598-image.png)![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/621-hykd/images/2025-11-24-1763997569752-image.png)![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/621-hykd/images/2025-11-24-1763997775045-image.png)![5db8cbf760dc718384aeaa1823e0a431.jpeg](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/621-hykd/images/2025-11-24-1763997833750-5db8cbf760dc718384aeaa1823e0a431.jpeg)
 

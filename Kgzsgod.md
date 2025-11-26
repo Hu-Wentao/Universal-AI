@@ -15,8 +15,85 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+### Qwen
+
+刚看到notion中还有实践作业。。。
+
+使用终端的curl命令完成了对qwen api 请求
+
+![](https://xvadt6dwbiv.feishu.cn/space/api/box/stream/download/asynccode/?code=YzlhZmFiZjI3YzVhYzJlZGE3MmIxZmViODk4Y2Q2MjNfc3EzZnp0Q1o5bElOd3A5QkpsalZVUGVrTk1zVkdyZFZfVG9rZW46S21BbGJ2cEF2b3VxWnR4eGhVcWNhNTFkbk9nXzE3NjQxNDM0MTg6MTc2NDE0NzAxOF9WNA)
+
+通过以下python代码可以在终端与qwen进行交互
+
+```Python
+import os
+from openai import OpenAI
+
+client = OpenAI(
+    api_key=os.getenv("DASHSCOPE_API_KEY"),
+    base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+)
+
+messages = [
+    {"role": "system", "content": "You are a helpful assistant."}
+]
+
+print("Qwen CLI 已启动，输入 exit 退出。")
+
+while True:
+    user_input = input("我: ")
+    if user_input.lower() in ["exit", "quit"]:
+        break
+
+    messages.append({"role": "user", "content": user_input})
+
+    response = client.chat.completions.create(
+        model="qwen-plus",
+        messages=messages
+    )
+
+    reply = response.choices[0].message.content
+    print("Qwen:", reply)
+
+    messages.append({"role": "assistant", "content": reply})
+```
+
+![](https://xvadt6dwbiv.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTgyNjBhYzRjOGYwNDcyZjY0Y2MwNTM0MjQ3NGNiNjlfTTFnYzBlYkNhbU1BbjV1bzU0dFRkOUVTZUtxMHpoQ1lfVG9rZW46WXlmNGJoQ3pqb1NZa0d4MTNjSmNLZ2JMbmdmXzE3NjQxNDM0MTg6MTc2NDE0NzAxOF9WNA)
+
+之前的实践作业在前两天的笔记都有提到，就不一一返回重新截取了
+
+### Gateway
+
+Gateway就是ZetaChain的智能合约与其他链进行交互的接口，可以通过这个接口进行消息传输，发送交易等操作
+
+针对不同的连接链有不同的操作方式
+
+Gateway主要实现了的功能需要区分连接链上的功能和zetachain的功能
+
+连接链上的Gateway的功能：
+
+-   存入原生代币作为gas向zetachain的合约发送调用请求
+    
+-   受zetachain支持的erc-20代币也可向zetachain的合约发送请求
+    
+
+zetachain的Gateway的功能：
+
+-   将zeta或者erc-20代币提取到连接链上
+    
+-   将代币提取到连接链上发送合约调用
+    
+
+Gateway的架构图
+
+![](https://xvadt6dwbiv.feishu.cn/space/api/box/stream/download/asynccode/?code=YWVlZDUyMzE4MjVlM2FkZDU0MmJiZTJhN2YwOTk3ZmRfSXFCcUdWZHdyc0VXaGxFQk9DOXdEaTlpa2lnQ0YyVm1fVG9rZW46SzVQdmJjbGdpb1B6WGR4V01Od2M1em8zblpkXzE3NjQxNDM0MTg6MTc2NDE0NzAxOF9WNA)
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 ## 部署在本地的universal合约
 
 ```Solidity
@@ -76,6 +153,7 @@ forge create Universal \
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 搭建了zetachain的cli环境
 

@@ -15,8 +15,28 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+# 什么是 Universal App？
+
+Universal App 是 ZetaChain 上地原生智能合约，可以与其他链进行交互。
+
+（就是一个能和其他很多链交互的智能合约）
+
+# Gateway 可以干什么？
+
+Gateway 是连接 ZetaChain 和其他链的桥梁。有了 Gateway 的存在，其他连可以与 ZetaChain 交互，ZetaChain 也可以与其他链交互。
+
+而且 Gateway 在跨链失败的时候还会原路退款，可以保障资金安全。（这一点比 Wormhole 好，之前我使用 Wormhole 的时候失败了导致我资金受损）
+
+下图就是 ZetaChain 中心 + Bitcoin / Ethereum / Solana 等外围链 + Gateway 的关系
+
+![未标题-1.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/fylcr/images/2025-11-26-1764167990200-___-1.png)
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 # 安装 ZetaChain CLI
 
 1.  安装 Node.js
@@ -271,6 +291,7 @@ data: [DONE]
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 # 注册 qwen api 账号
 

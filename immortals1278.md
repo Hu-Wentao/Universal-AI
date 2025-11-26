@@ -28,10 +28,15 @@ tg写的微信号
 支持evm地址和bech32地址，如果这两个地址是从同一个公钥派生出来的，那么它们代表的是同一个账户
 
 Cosmos SDK：区块链开发开源框架，帮忙快速构建区块链
+
+## Universal App
+
+一个部署在 ZetaChain 上的单一、统一的智能合约，但它却可以直接管理和操作部署在其他多条区块链上的资产与数据。
 <!-- DAILY_CHECKIN_2025-11-26_END -->
 
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 
 RPC 让app连接到测试网：[https://zetachain-athens-evm.blockpi.network/v1/rpc/public](https://zetachain-athens-evm.blockpi.network/v1/rpc/public)
 
@@ -56,6 +61,7 @@ call：在源链上调用gateway的send函数->调用zetachain上通用合约的
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 
 

@@ -218,10 +218,15 @@ zEVM -->|2. 处理逻辑 & 状态变更| TSS[TSS 签名者节点]
 Universal EVM ：是联网版的指挥中心。它把所有外部链的资产都“投影”到了自己身上（通过 ZRC-20）。
 
 优势：在用 Foundry 写代码时，感觉就像是在操作本地变量一样，但实际上你是在指挥 Bitcoin 和 Ethereum 上的真实资产流动。
+
+### 关于ZRC-20,我自己画了个表
+
+![1.png33.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/Appler-R/images/2025-11-26-1764148308407-1.png33.png)
 <!-- DAILY_CHECKIN_2025-11-26_END -->
 
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 
 
 
@@ -457,6 +462,7 @@ agent\_[price.py](http://price.py)：实时的加密货币行情助手。
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 
 

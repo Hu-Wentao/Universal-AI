@@ -28,7 +28,7 @@ Universal EVM (通用 EVM / zEVM)
 
 它不仅兼容以太坊（你可以用 Foundry 写代码），
 
-更拥有**“上帝视角”**，比如你可以通过Zetachain上的Universal App，你能够监控所有网络（Bitcoin、Ethereum等),调用所有代币
+更拥有“上帝视角”，比如你可以通过Zetachain上的Universal App，你能够监控所有网络（Bitcoin、Ethereum等),调用所有代币
 
 即 普通的 EVM 只能读取自己链上的数据。而 zEVM 可以直接读取和写入连接链（Connected Chains）上的状态。
 
@@ -69,7 +69,7 @@ Universal EVM 是一个“国际中央银行”，能同时看到并操作所有
 
 我举个例子，比如你要去日本买个手办
 
-按照_传统跨链模式_，你需要：
+按照\_传统跨链模式\_，你需要：
 
 1.  把你的非日元法币换成日元
     
@@ -222,6 +222,7 @@ Universal EVM ：是联网版的指挥中心。它把所有外部链的资产都
 
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 
 ## 1\. 开发环境处理 (WSL Linux)
 
@@ -455,6 +456,7 @@ agent\_[price.py](http://price.py)：实时的加密货币行情助手。
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 
 

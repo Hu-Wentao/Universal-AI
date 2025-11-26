@@ -87,6 +87,8 @@ Universal EVM 是一个“国际中央银行”，能同时看到并操作所有
 3.  **日本商店直接收到了真日元**。
     
 
+![图片.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/Appler-R/images/2025-11-26-1764164272462-__.png)
+
 ### 总结
 
 ZetaChain 的价值在于：
@@ -294,6 +296,7 @@ Merkle树用哈希聚合交易 → 一个根哈希代表所有交易，轻节点
 
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 
 
 
@@ -531,6 +534,7 @@ agent\_[price.py](http://price.py)：实时的加密货币行情助手。
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 
 

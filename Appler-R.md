@@ -24,7 +24,7 @@ _这是 ZetaChain 最具革命性的地方。_
 
 Universal EVM (通用 EVM / zEVM)
 
-它是什么：ZetaChain 是一条公链，它的执行层叫 zEVM。
+### 它是什么：ZetaChain 是一条公链，它的执行层叫 zEVM。
 
 它不仅兼容以太坊（你可以用 Foundry 写代码），
 
@@ -222,6 +222,7 @@ Universal EVM ：是联网版的指挥中心。它把所有外部链的资产都
 
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 
 
 ## 1\. 开发环境处理 (WSL Linux)
@@ -456,6 +457,7 @@ agent\_[price.py](http://price.py)：实时的加密货币行情助手。
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 
 

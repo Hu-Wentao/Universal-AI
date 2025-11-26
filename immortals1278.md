@@ -15,8 +15,24 @@ tg写的微信号
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+## cctx
+
+跨链交易
+
+用ZetaChain 的 Cosmos SDK HTTP API来追踪cctx，如果一个 CCTX 触发了另一个 CCTX（例如，一个入站交易导致了一个出站交易），可以用第一个 CCTX 的哈希作为输入查询api，来查询第二个 CCTX。
+
+## zetachain的地址
+
+支持evm地址和bech32地址，如果这两个地址是从同一个公钥派生出来的，那么它们代表的是同一个账户
+
+Cosmos SDK：区块链开发开源框架，帮忙快速构建区块链
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 RPC 让app连接到测试网：[https://zetachain-athens-evm.blockpi.network/v1/rpc/public](https://zetachain-athens-evm.blockpi.network/v1/rpc/public)
 
 Faucet 领测试币：[https://zetachain.faucetme.pro/](https://zetachain.faucetme.pro/)
@@ -40,6 +56,7 @@ call：在源链上调用gateway的send函数->调用zetachain上通用合约的
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 
 

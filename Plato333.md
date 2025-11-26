@@ -15,8 +15,14 @@ web3 building
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+今天忙的事太多了，鸽一天hh
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 测试网RPC是指向测试链的HTTP/WebSocket 接口用于进行链上操作，Faucet是水龙头，Explorer区块链浏览器如Etherscan。
 
 今天继续学习zetachain通用AI文档，在本地部署了CIL，终端调用千问的api
@@ -24,6 +30,7 @@ web3 building
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 今天有点忙，主要学习了下官方文档
 <!-- DAILY_CHECKIN_2025-11-24_END -->

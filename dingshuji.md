@@ -15,8 +15,22 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+\## zeta架构
+
+\- 交互路径：区块链→zetaclient→zetavm→zetacore（ Tendermint 共识和 PoS 验证者网络）→ZetaCore / Blockchain（核心区块链）→签名者签名
+
+\- zetaclient=观察者+签名者
+
+\- Tendermint 共识：拜占庭容错（BFT）共识协议
+
+\- PoS 验证者网络（共识层）：通过质押原生代币参与区块链共识的节点集合
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 \- 安装zetachain CLI：npm install -g zetachain
 
 \- 检查版本：zetachain --version
@@ -28,6 +42,7 @@ timezone: UTC+8
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 检查安装版本
 

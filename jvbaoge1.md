@@ -15,8 +15,42 @@ just share ，dyor ，hope to earn  空投不撸枉少年  新协议我先上车
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+### **1\. Universal App 是什么？**
+
+Universal App（通用应用）是部署在 **ZetaChain** 上的一种智能合约，它能 **原生地与多个区块链（如 Ethereum、Bitcoin、Solana 等）进行交互**。
+
+-   它可以 **接收来自任何已连接链的消息和代币**（比如用户从以太坊发来 ETH，或从比特币发来 BTC）。
+    
+-   它也可以 **主动向这些链发起交易**，例如把 ETH 换成 BNB，再转给 BNB 链上的地址。
+    
+-   它运行在 **Universal EVM（通用以太坊虚拟机）** 上，兼容 Solidity，开发者可以像写普通 EVM 合约一样开发，但获得跨链能力。
+    
+-   最关键的是：**一次用户操作（比如一笔比特币转账）就能触发多链联动逻辑**，而不需要用户分别操作每条链。
+    
+
+### **2\. Gateway 大概做什么？**
+
+Gateway（网关）是 **每条连接到 ZetaChain 的公链上的一个特殊合约（或地址）**，它是用户与 Universal App 交互的“入口”。
+
+-   用户想从 Ethereum、Bitcoin 或 Solana 调用 ZetaChain 上的 Universal App，**必须先和该链上的 Gateway 交互**。
+    
+    -   在 EVM 链（如 Ethereum）：调用 Gateway 合约，传入目标 Universal App 地址 + 数据 + 代币。
+        
+    -   在 Bitcoin：向 Gateway 地址发送 BTC，并在交易备注中附带消息（OP\_RETURN）。
+        
+-   Gateway 负责 **捕获用户请求并将其转发给 ZetaChain 的验证者网络**，最终触发 Universal App 的 `onCall` 函数。
+    
+-   它也负责 **把 ZetaChain 的响应（比如跨链转账）执行回目标链**。
+    
+
+![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/jvbaoge1/images/2025-11-26-1764165068328-image.png)
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 📝 Day 2：环境与工具实战（ZetaChain + Qwen）
 
 提交人：jvbaoge1
@@ -178,6 +212,7 @@ GitHub 仓库：[https://github.com/jvbaoge1/zetachain](https://github.com/jvbao
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 成功的部署了环境，从以太坊链（Sepolia）发送到 ZetaChain Universal Contract 的跨链调用过程
 

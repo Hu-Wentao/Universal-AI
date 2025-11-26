@@ -15,8 +15,161 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+今天把昨天没有做的部分补齐了一下：
+
+![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/spryo9/images/2025-11-26-1764157976016-image.png)
+
+```
+
+在Faucet上的领取了测试币
+成功调用了qwen的api
+这个过程中学习了一下json,简单易上手
+
+
+import requests
+```
+
+```
+import json
+```
+
+```
+url = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
+```
+
+```
+headers = {
+```
+
+```
+    "Authorization": f"Bearer {API_KEY}", 
+```
+
+```
+    "Content-Type": "application/json"
+```
+
+```
+}
+
+```
+
+```
+data = {
+```
+
+```
+    "model": "qwen-plus",
+```
+
+```
+    "messages": [
+```
+
+```
+        {"role": "user", "content": "你好，你是谁？"}
+```
+
+```
+    ]
+```
+
+```
+}
+
+```
+
+```
+try:
+```
+
+```
+    response = requests.post(url, headers=headers, json=data)
+
+```
+
+```
+    if response.status_code == 200:
+```
+
+```
+        result = response.json()  
+
+```
+
+```
+        ai_message = result["choices"][0]["message"]["content"]
+```
+
+```
+        print("AI回答：", ai_message)
+
+```
+
+```
+        usage = result["usage"]
+```
+
+```
+        print(f"\n本次消耗：{usage['total_tokens']} tokens")
+```
+
+```
+    else:
+```
+
+```
+        print(f"请求失败，状态码：{response.status_code}")
+```
+
+```
+        print("错误信息：", response.text)
+```
+
+```
+except Exception as e:
+```
+
+```
+    print("出错了！", e)
+
+
+```
+
+之前第一天写过一版：  
+实现方式：用户在比特币网络中转账给TSS地址btc,Message/Memo 附带了 ZetaChain 上的合约地址和参数，zeta的观察者超过66%的比例投票确认btc到账TSS地址，在zeta链上生成zrc-20 btc，调用用户指定 `onCrossChainCall` 函数，执行智能合约代码。之后zeta在流动性池（liquidity pool），结合自动市商（AMM）在确保大致(zrc-20)btc \* eth=常量的算法下，兑换出相应的zrc-20eth,之后合约调用withdraw函数，TSS验证者在eth网络签名，并广播，给以太坊的用户转入eth。整个过程中zeta代币作为btc/eth的中间桥梁。  
+补充的逻辑如下：
+
+1.用户发起交易 -> 生成 Tx Hash。
+
+2\. ZetaChain Validators (Observers)：扫描到 Tx Hash -> 验证 -> 提交到 ZetaChain 共识层。
+
+3\. ZetaChain Core：由于共识达成，触发 zEVM 中的合约逻辑 -> 状态改变（State Transition）。
+
+4\. TSS Signers：合约要求提现 -> 验证者们计算签名碎片 -> 合成出 有效签名。
+
+5\. External Chain：验证签名 -> 资金转移  
+
+关于我眼中的 uiversal 和getway  
+1.Universal App 就是一种无视链的存在的超级应用。
+
+2\. 以前，如果我想从比特币网络转钱去以太坊玩游戏，我需要下载好几个钱包，进行复杂的跨链操作，不仅慢还容易丢币。
+
+3\. Universal App 就像现在的微信支付，不管底层是哪家银行（哪条链），用户只需要操作一次，就能在任何地方使用任何资产。它把复杂的跨链技术藏在了后台，只给用户最简单的体验。
+
+4\. Gateway 大概做什么？ Gateway（网关）就像是 ZetaChain 连接外部世界的“翻译器”。
+
+5\. 比如比特币（BTC）原本是无法在智能合约里运行的。Gateway 的作用就是把外面的 BTC 接收进来，给它穿上一层 ZetaChain 能识别的“外套”（ZRC-20），让它能在 ZetaChain 内部被全链合约调度和交易。当需要提现时，Gateway 再帮它脱掉外套，把它变回原生的 BTC 发送回比特币网络。它是连接“孤岛”和“枢纽”的关键桥梁。  
+  
+
+![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/Universal-AI/main/assets/spryo9/images/2025-11-26-1764162706109-image.png)
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 环境搭建 _完成了，还用了 WSL + Foundry/Hardhat_ 配置。
 
 在AI的帮助下编写 Swap.sol，初步理解了 \*ZRC-20\*\*（跨链资产）、\*\*SystemContract\*\*（系统合约）和 Uniswap Router（交易逻辑）。  
@@ -225,6 +378,7 @@ contract Swap is zContract {
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 # self-introduction:
 

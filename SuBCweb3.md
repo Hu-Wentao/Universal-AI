@@ -15,8 +15,14 @@ ZetaChain爱好者
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+打卡
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 打卡  
 [https://coinmarketcap.com/community/post/371320328](https://coinmarketcap.com/community/post/371320328)  
 今天有点忙，没怎么学开发，写了篇关于evm的帖子
@@ -24,6 +30,7 @@ ZetaChain爱好者
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 
 打卡  

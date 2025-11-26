@@ -15,8 +15,24 @@ AI & Web3 Builder!!!!
 ## Notes
 
 <!-- Content_START -->
+# 2025-11-26
+<!-- DAILY_CHECKIN_2025-11-26_START -->
+已完成:
+
+-   在笔记中用自己的话写出：
+    
+    -   Universal App 是什么？
+        
+    -   Gateway 大概做什么？
+        
+-   画一张简单的架构图：
+    
+    ZetaChain 中心 + Bitcoin / Ethereum / Solana 等外围链 + Gateway。
+<!-- DAILY_CHECKIN_2025-11-26_END -->
+
 # 2025-11-25
 <!-- DAILY_CHECKIN_2025-11-25_START -->
+
 已完成安装或尝试使用 ZetaChain CLI（本地或云端环境均可）。
 
 -   了解测试网 RPC、Faucet、Explorer 的入口，记录在自己的笔记中。
@@ -26,6 +42,7 @@ AI & Web3 Builder!!!!
 
 # 2025-11-24
 <!-- DAILY_CHECKIN_2025-11-24_START -->
+
 
 已完成:
 
